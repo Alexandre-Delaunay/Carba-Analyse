@@ -1,6 +1,6 @@
-#include "core\core.h"
-#include "core\reestr.h"
-
+#include <WinNls.h>
+#include "../../include/core/string.h"
+#include "../../include/core/reestr.h"
 namespace Elevation
 {
 

@@ -1,6 +1,6 @@
-#include "core\winapi.h"
-#include "core\debug.h"
-#include "core\string.h"
+//#include "core\winapi.h"
+//#include "core\debug.h"
+//#include "core\string.h"
 
 #ifdef DEBUG_STRINGS
 

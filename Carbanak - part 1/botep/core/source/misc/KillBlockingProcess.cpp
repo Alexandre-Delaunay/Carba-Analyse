@@ -1,6 +1,7 @@
-#include "core\process.h"
-#include "core\file.h"
-#include "core\debug.h"
+#include <WinSock2.h>
+#include "../../include/core/memory.h"
+#include "../../include/core/string_crypt.h"
+#include "../../include/core/File.h"
 
 namespace Process
 {

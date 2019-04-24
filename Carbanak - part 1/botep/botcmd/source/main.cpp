@@ -1,19 +1,12 @@
 #include <stdio.h>
-#include "core\core.h"
-#include "core\path.h"
-#include "core\process.h"
-#include "core\http.h"
-#include "core\file.h"
-#include "core\vector.h"
-#include "core\rand.h"
-#include "core\crypt.h"
-#include "core\util.h"
-#include "core\cab.h"
-#include "core\hook.h"
-#include "core\abstract.h"
-#include "core\pipe.h"
-#include "core\proxy.h"
-#include "core\elevation.h"
+#include "../../core/include/core/string.h"
+#include "../../core/include/core/core.h"
+#include "../../core/include/core/rand.h"
+#include "../../core/include/core/pipe.h"
+#include "../../core/include/core/proxy.h"
+#include "../../core/include/core/crypt.h"
+#include "../../core/include/core/abstract.h"
+#include "../../core/include/core/elevation.h"
 
 const int GeneralCmdTask = 1; //выполнении ботом команды, передается текстовая команда (в data) и ее длина (в sz_data) без учета завершающего нуля
 const int GeneralCmdInfo = 2; //возвращает информацию о боте

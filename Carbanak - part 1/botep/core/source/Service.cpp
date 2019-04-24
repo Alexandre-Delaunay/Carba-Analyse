@@ -1,7 +1,13 @@
-#include "core\service.h"
-#include "core\debug.h"
-#include "core\reestr.h"
-#include "core\rand.h"
+#include "../include/core/winapi_simple.h"
+#include "../include/core/misc.h"
+#include "../include/core/memory.h"
+#include "../include/core/reestr.h"
+#include "../include/core/rand.h"
+#include "../include/core/debug.h"
+//#include "core\service.h"
+//#include "core\debug.h"
+//#include "core\reestr.h"
+//#include "core\rand.h"
 
 namespace Service
 {

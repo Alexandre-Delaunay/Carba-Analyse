@@ -1,6 +1,10 @@
-#include "core\util.h"
-#include "core\string.h"
-#include "core\debug.h"
+#include <WTypesbase.h>
+#include <gdiplus.h>
+#include "../../include/core/winapi_simple.h"
+#include "../../include/core/memory.h"
+#include "../../include/core/debug.h"
+#include "../../include/core/string_crypt.h"
+#include "../../include/core/string.h"
 
 namespace Screenshot
 {

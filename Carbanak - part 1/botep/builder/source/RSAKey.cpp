@@ -1,5 +1,4 @@
-#include "stdafx.h"
-#include "main.h"
+#include "../../core/include/core/memory.h"
 
 bool ExportKey( HCRYPTPROV hprov, HCRYPTKEY hkey, DWORD type, Mem::Data& key )
 {

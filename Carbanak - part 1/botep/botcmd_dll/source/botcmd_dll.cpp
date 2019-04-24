@@ -1,8 +1,8 @@
+#include "../../core/include/core/winapi.h"
+#include "../../core/include/core/core.h"
 // botcmd_dll.cpp: определяет экспортированные функции для приложения DLL.
 //
 
-#include "core\core.h"
-#include "core\process.h"
 
 void Start()
 {

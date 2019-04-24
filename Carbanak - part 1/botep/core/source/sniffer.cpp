@@ -1,6 +1,6 @@
-#include "core\sniffer.h"
-#include "core\socket.h"
-#include "core\debug.h"
+//#include "core\sniffer.h"
+//#include "core\socket.h"
+//#include "core\debug.h"
 
 namespace Sniffer
 {

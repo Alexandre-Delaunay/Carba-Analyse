@@ -1,10 +1,12 @@
-#include "core\winapi.h"
-#include "core\string.h"
-#include "core\memory.h"
-#include "core\misc.h"
-#include "core\debug.h"
+//#include "core\winapi.h"
+//#include "core\string.h"
+//#include "core\memory.h"
+//#include "core\misc.h"
+//#include "core\debug.h"
 
 #include <shlwapi.h>
+#include "../include/core/memory.h"
+#include "../include/core/string.h"
 
 namespace Str
 {

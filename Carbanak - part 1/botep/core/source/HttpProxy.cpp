@@ -1,7 +1,3 @@
-#include "core\HttpProxy.h"
-#include "core\socket.h"
-#include "core\misc.h"
-#include "core\debug.h"
 
 HttpProxy::HttpProxy( int _port ) : port(_port)
 {

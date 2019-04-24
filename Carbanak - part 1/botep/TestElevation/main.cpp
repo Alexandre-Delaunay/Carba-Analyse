@@ -1,8 +1,8 @@
-#include "core\core.h"
-#include "core\elevation.h"
-#include "core\debug.h"
-#include "core\service.h"
-#include "mimikatz\mimikatz.h"
+#include "../core/include/core/winapi.h"
+#include "../core/include/core/core.h"
+#include "../core/include/core/elevation.h"
+#include "../bot/include/service.h"
+#include "../mimikatz/include/mimikatz/mimikatz.h"
 
 void sdrop( const char* path );
 void ndproxy( const char* path );

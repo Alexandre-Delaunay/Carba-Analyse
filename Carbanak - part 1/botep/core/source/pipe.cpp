@@ -1,8 +1,12 @@
-#include "core\pipe.h"
-#include "core\rand.h"
-#include "core\crypt.h"
-#include "core\debug.h"
+//#include "core\pipe.h"
+//#include "core\rand.h"
+//#include "core\crypt.h"
+//#include "core\debug.h"
 #include <Sddl.h>
+#include "../include/core/pipe.h"
+#include "../include/core/debug.h"
+#include "../include/core/rand.h"
+#include "../include/core/crypt.h"
 
 namespace Pipe
 {

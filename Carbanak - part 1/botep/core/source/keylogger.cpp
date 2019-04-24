@@ -1,7 +1,10 @@
-#include "core\keylogger.h"
-#include "core\hook.h"
-#include "core\util.h"
-#include "core\debug.h"
+#include "../include/core/hook.h"
+#include "../include/core/keylogger.h"
+#include "../include/core/util.h"
+//#include "core\keylogger.h"
+//#include "core\hook.h"
+//#include "core\util.h"
+//#include "core\debug.h"
 
 namespace KeyLogger
 {

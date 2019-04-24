@@ -1,4 +1,4 @@
-#include "core\hook.h"
+#include "../../include/core/hook.h"
 
 namespace Hook
 {

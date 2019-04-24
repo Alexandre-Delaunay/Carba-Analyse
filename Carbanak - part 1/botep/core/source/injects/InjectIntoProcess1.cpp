@@ -1,4 +1,7 @@
-#include "core\injects.h"
+#include "../../include/core/type.h"
+#include "../../include/core/ntdll.h"
+#include "../../include/core/memory.h"
+#include "../../include/core/injects.h"
 
 bool InjectIntoProcess1( DWORD pid, typeFuncThread func )
 {

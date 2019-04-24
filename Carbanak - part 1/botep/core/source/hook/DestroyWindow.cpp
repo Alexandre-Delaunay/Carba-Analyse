@@ -1,4 +1,4 @@
-#include "core\hook.h"
+#include <ntstatus.h>
 
 namespace Hook
 {

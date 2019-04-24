@@ -1,7 +1,6 @@
-#include "core\process.h"
-#include "core\debug.h"
 #define PSAPI_VERSION 1
 #include "psapi.h"
+#include "../../../bot/include/other.h"
 
 namespace Process
 {

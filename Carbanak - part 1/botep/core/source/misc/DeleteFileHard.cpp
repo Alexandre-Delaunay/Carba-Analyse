@@ -1,4 +1,5 @@
-#include "core\file.h"
+#include "../../include/core/memory.h"
+#include "../../include/core/File.h"
 
 namespace File
 {

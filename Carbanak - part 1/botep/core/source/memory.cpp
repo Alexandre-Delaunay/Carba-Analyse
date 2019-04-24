@@ -1,7 +1,10 @@
-#include "core\winapi.h"
-#include "core\memory.h"
-#include "core\string.h"
-#include "core\debug.h"
+#include <WinSock2.h>
+#include "../include/core/memory.h"
+#include "../include/core/string.h"
+//#include "core\winapi.h"
+//#include "core\memory.h"
+//#include "core\string.h"
+//#include "core\debug.h"
 
 namespace Mem
 {

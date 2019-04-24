@@ -1,10 +1,7 @@
-
 // builder_guiDlg.h : файл заголовка
 //
 
 #pragma once
-#include "afxcmn.h"
-#include "afxwin.h"
 
 
 // диалоговое окно Cbuilder_guiDlg

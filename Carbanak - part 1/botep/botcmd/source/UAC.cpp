@@ -1,6 +1,6 @@
-#include "core\core.h"
-#include "core\elevation.h"
-#include "core\injects.h"
+#include "../../core/include/core/string.h"
+#include "../../core/include/core/elevation.h"
+#include "../../core/include/core/core.h"
 
 char dllPath[MAX_PATH];
 char cmdPath[MAX_PATH];

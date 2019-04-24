@@ -1,5 +1,7 @@
-#include "core\version.h"
-#include "core\debug.h"
+#include "../include/core/string_crypt.h"
+#include "../include/core/version.h"
+//#include "core\version.h"
+//#include "core\debug.h"
 
 char* NT_VERSION_NAMES[] = 
 {

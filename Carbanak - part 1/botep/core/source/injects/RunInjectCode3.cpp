@@ -1,7 +1,8 @@
-#include "core\injects.h"
-#include "core\pe.h"
-#include "core\debug.h"
-#include "core\ntdll.h"
+#include <WinSock2.h>
+#include "../../include/core/injects.h"
+#include "../../include/core/type.h"
+#include "../../include/core/winapi_simple.h"
+#include "../../include/core/ntdll.h"
 
 bool RunInjectCode3( HANDLE hprocess, HANDLE hthread, typeFuncThread startFunc, typeInjectCode func )
 {

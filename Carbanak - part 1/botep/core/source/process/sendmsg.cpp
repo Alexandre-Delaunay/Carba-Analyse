@@ -1,6 +1,5 @@
-#include "core\process.h"
-#include "core\debug.h"
-#include "core\util.h"
+#include <Windows.h>
+#include "../../include/core/winapi_simple.h"
 
 namespace Process
 {

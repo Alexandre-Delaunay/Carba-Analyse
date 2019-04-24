@@ -1,7 +1,8 @@
-#include "core\core.h"
-#include "core\debug.h"
-#include "core\file.h"
-#include "Imagehlp.h"
+#include "../../include/core/memory.h"
+#include "../../include/core/string.h"
+#include "../../include/core/path.h"
+#include "../../include/core/debug.h"
+#include "../../include/core/File.h"
 
 namespace Elevation
 {

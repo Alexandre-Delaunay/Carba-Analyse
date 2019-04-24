@@ -1,5 +1,10 @@
-#include "core\file.h"
-#include "core\debug.h"
+//#include "core\file.h"
+//#include "core\debug.h"
+#include <WinSock2.h>
+#include "../include/core/winapi_simple.h"
+#include "../include/core/memory.h"
+#include "../include/core/string.h"
+#include "../include/core/File.h"
 
 namespace File
 {

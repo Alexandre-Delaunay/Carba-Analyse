@@ -1,12 +1,12 @@
 // builder.cpp: определяет точку входа для консольного приложения.
 //
 
-#include "stdafx.h"
-#include "core\core.h"
-#include "core\file.h"
-#include "core\rand.h"
-#include "main.h"
 #include <stdlib.h>
+#include <tchar.h>
+#include "../../core/include/core/winapi.h"
+#include "../../core/include/core/core.h"
+#include "../../core/include/core/rand.h"
+#include <cfg.h>
 
 int _tmain(int argc, _TCHAR* argv[])
 {

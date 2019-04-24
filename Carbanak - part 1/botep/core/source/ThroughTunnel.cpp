@@ -1,6 +1,10 @@
-#include "core\ThroughTunnel.h"
-#include "core\socket.h"
-#include "core\debug.h"
+#include "../include/core/string.h"
+#include "../include/core/ThroughTunnel.h"
+#include "../include/core/debug.h"
+#include "../include/core/socket.h"
+//#include "core\ThroughTunnel.h"
+//#include "core\socket.h"
+//#include "core\debug.h"
 
 ThroughTunnel::ThroughTunnel( int _portIn, const char* _ipOut, int _portOut ) : portIn(_portIn), portOut(_portOut)
 {

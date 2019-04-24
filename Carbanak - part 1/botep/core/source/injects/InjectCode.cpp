@@ -1,5 +1,5 @@
-#include "core\injects.h"
-#include "core\pe.h"
+#include "../../include/core/type.h"
+#include "../../include/core/pe.h"
 
 SIZE_T InjectCode( HANDLE hprocess, typeFuncThread startFunc, HMODULE* newBaseImage )
 {

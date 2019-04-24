@@ -1,4 +1,5 @@
-#include "core\core.h"
+#include "../../core/include/core/string.h"
+#include "../../core/include/core/string_crypt.h"
 
 #ifdef ON_CODE_STRING
 

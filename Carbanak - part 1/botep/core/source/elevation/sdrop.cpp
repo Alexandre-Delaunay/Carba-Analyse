@@ -1,9 +1,9 @@
-#include "core\core.h"
-#include "core\elevation.h"
-#include "core\debug.h"
-#include "core\misc.h"
-#include "core\version.h"
-#include "core\file.h"
+#include "../../include/core/type.h"
+#include "../../include/core/ntdll.h"
+#include "../../include/core/memory.h"
+#include "../../include/core/version.h"
+#include "../../include/core/debug.h"
+#include "../../include/core/File.h"
 
 namespace Elevation
 {

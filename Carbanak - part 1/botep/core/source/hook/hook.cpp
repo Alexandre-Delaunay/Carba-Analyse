@@ -1,6 +1,5 @@
-#include "core\hook.h"
 #include "x86\zdisasm.h"
-#include "core\debug.h"
+#include "../../include/core/memory.h"
 
 namespace Hook
 {

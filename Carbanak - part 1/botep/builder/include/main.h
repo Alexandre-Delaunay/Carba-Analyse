@@ -1,5 +1,6 @@
-#include "builder.h" //настройки бота для билдера
-#include "core\core.h"
+#include "../../core/include/core/memory.h"
+#include "../../core/include/core/string.h"
+#include "../../bot/config/builder.h"
 
 struct Config
 {

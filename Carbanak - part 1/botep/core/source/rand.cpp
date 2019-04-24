@@ -1,4 +1,5 @@
-#include "core\rand.h"
+#include "../include/core/type.h"
+//#include "core\rand.h"
 
 namespace Rand
 {

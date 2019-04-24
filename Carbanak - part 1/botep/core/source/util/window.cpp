@@ -1,6 +1,4 @@
-#include "core\util.h"
-#include "core\string.h"
-#include "core\debug.h"
+#include "../../include/core/memory.h"
 
 namespace Window
 {

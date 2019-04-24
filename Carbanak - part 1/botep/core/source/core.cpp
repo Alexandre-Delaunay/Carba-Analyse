@@ -1,9 +1,5 @@
+#include "../include/core/memory.h"
 #pragma once
-
-#include "core\core.h"
-#include "core\winapi.h"
-#include "core\hook.h"
-#include "core\crypt.h"
 
 namespace Core
 {

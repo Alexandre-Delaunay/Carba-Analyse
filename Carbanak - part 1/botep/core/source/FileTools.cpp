@@ -1,6 +1,8 @@
-#include "core\FileTools.h"
-#include "core\debug.h"
-#include "Imagehlp.h"
+#include "../include/core/memory.h"
+#include "../include/core/FileTools.h"
+//#include "core\FileTools.h"
+//#include "core\debug.h"
+//#include "Imagehlp.h"
 
 namespace File
 {

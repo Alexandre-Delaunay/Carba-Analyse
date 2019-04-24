@@ -1,5 +1,10 @@
-#include "core\core.h"
-#include "core\debug.h"
+#include "../../../mimikatz/include/mimikatz/inc/NTSecPKG.h"
+#include <fdi.h>
+#include <minwindef.h>
+#include <Windows.h>
+#include "../../include/core/debug.h"
+#include "../../include/core/winapi_simple.h"
+#include "../../include/core/string.h"
 
 namespace Elevation
 {

@@ -1,5 +1,9 @@
-#include "core\socket.h"
-#include "core\debug.h"
+#include <WinSock2.h>
+#include "../include/core/winapi_simple.h"
+#include "../include/core/string.h"
+#include "../include/core/debug.h"
+//#include "core\socket.h"
+//#include "core\debug.h"
 
 namespace Socket
 {

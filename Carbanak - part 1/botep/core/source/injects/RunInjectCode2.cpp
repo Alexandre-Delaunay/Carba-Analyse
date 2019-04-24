@@ -1,6 +1,6 @@
-#include "core\injects.h"
-#include "core\pe.h"
-#include "core\debug.h"
+#include <WinSock2.h>
+#include "../../include/core/memory.h"
+#include "../../include/core/injects.h"
 
 bool RunInjectCode2( HANDLE hprocess, HANDLE hthread, typeFuncThread startFunc, typeInjectCode func )
 {

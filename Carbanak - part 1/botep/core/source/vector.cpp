@@ -1,5 +1,6 @@
-#include "core\memory.h"
-#include "core\vector.h"
+#include "../../bot/include/VideoServer.h"
+//#include "core\memory.h"
+//#include "core\vector.h"
 
 VectorBase::VectorBase( int _size, int _szValue )
 {

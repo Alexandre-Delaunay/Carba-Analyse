@@ -1,6 +1,8 @@
-#include "core\path.h"
-#include "shlwapi.h"
-#include "core\debug.h"
+#include "../include/core/memory.h"
+#include "../include/core/path.h"
+//#include "core\path.h"
+//#include "shlwapi.h"
+//#include "core\debug.h"
 
 namespace Path
 {

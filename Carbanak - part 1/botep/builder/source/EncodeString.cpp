@@ -1,8 +1,6 @@
-#include "stdafx.h"
-#include "main.h"
 #include <stdio.h>
-#include "core\file.h"
-#include "core\pe.h"
+#include "../include/main.h"
+#include "../../core/include/core/pe.h"
 
 char EncodeTable[256]; //перекодировачная таблица
 

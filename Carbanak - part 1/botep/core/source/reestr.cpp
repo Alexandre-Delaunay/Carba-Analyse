@@ -1,5 +1,9 @@
-#include "core\reestr.h"
-#include "core\debug.h"
+#include "../include/core/type.h"
+#include "../include/core/File.h"
+#include "../include/core/cab.h"
+#include "../include/core/reestr.h"
+//#include "core\reestr.h"
+//#include "core\debug.h"
 
 Reestr::Reestr( HKEY root ) : key(root)
 {

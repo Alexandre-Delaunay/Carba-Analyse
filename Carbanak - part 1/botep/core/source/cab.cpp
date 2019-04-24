@@ -1,5 +1,7 @@
-#include "core\cab.h"
-#include "core\debug.h"
+#include <consoleapi3.h>
+#include "../include/core/File.h"
+#include "../../bot/include/AdminPanel.h"
+#include "../include/core/cab.h"
 
 //содержит имя распакованного файла и его содержимое в памяти
 struct ExtractInfo

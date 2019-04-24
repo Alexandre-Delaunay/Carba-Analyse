@@ -1,6 +1,9 @@
-#include "core\runinmem.h"
-#include "core\pe.h"
-#include "core\debug.h"
+#include <ShlDisp.h>
+#include "../include/core/pe.h"
+#include "../include/core/debug.h"
+//#include "core\runinmem.h"
+//#include "core\pe.h"
+//#include "core\debug.h"
 
 namespace RunInMem
 {

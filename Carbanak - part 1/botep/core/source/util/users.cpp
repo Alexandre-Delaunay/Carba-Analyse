@@ -1,12 +1,9 @@
-#include "core\util.h"
-#include "core\string.h"
-#include "core\debug.h"
-#include "core\reestr.h"
-#include "core\process.h"
-#include <gdiplus.h>
-#include <Lmaccess.h>
-#include <Sddl.h>
-#include <LMErr.h>
+#include <minwindef.h>
+#include "../../include/core/memory.h"
+#include "../../../mimikatz/include/mimikatz/inc/LMaccess.h"
+#include "../../include/core/string.h"
+#include "../../../mimikatz/include/mimikatz/inc/LMErr.h"
+#include "../../include/core/reestr.h"
 
 namespace Users
 {

@@ -1,7 +1,13 @@
-#include "core\core.h"
-#include "core\misc.h"
-#include "core\debug.h"
-#include "Iphlpapi.h"
+#include "../include/core/type.h"
+#include <ifdef.h>
+#include "../include/core/winapi_simple.h"
+#include <iphlpapi.h>
+#include "../include/core/memory.h"
+#include "../include/core/string.h"
+//#include "core\core.h"
+//#include "core\misc.h"
+//#include "core\debug.h"
+//#include "Iphlpapi.h"
 
 uint CalcHash( const byte* ptr, int c_ptr )
 {

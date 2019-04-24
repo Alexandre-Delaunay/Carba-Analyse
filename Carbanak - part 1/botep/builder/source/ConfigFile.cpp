@@ -1,11 +1,11 @@
-#include "stdafx.h"
-
-#include "main.h"
-#include "core\file.h"
-#include "core\rand.h"
-#include "builder.h"
 #include <math.h>
 #include <stdlib.h>
+#include "../../core/include/core/memory.h"
+#include "../../core/include/core/string.h"
+#include "../../core/include/core/File.h"
+#include <cfg.h>
+#include "../include/main.h"
+#include "../../core/include/core/rand.h"
 
 uint DateToInt( const char* s );
 

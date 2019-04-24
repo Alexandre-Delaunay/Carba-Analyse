@@ -1,5 +1,8 @@
-#include "core\pe.h"
-#include "core\debug.h"
+#include <WinBase.h>
+#include "../include/core/winapi_simple.h"
+#include "../include/core/pe.h"
+//#include "core\pe.h"
+//#include "core\debug.h"
 
 #define IMAGE_SIZEOF_BASE_RELOCATION 8
 

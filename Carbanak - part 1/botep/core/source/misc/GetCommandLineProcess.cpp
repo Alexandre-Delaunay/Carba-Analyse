@@ -1,5 +1,5 @@
-#include "core\core.h"
-#include "core\debug.h"
+#include "../../include/core/type.h"
+#include "../../include/core/memory.h"
 
 namespace Process
 {
