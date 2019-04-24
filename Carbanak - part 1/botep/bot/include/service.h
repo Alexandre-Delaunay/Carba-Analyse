@@ -1,8 +1,5 @@
 #pragma once
 
-#include "core\core.h"
-#include "core\service.h"
-
 namespace Service
 {
 	//устанавливает сервис в систему, если copyFile = false, то файл srcFile не копируется в нужное место (было уже скопировано)

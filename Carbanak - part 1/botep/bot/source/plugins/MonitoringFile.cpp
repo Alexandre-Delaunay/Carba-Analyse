@@ -1,9 +1,6 @@
-#include "plugins.h"
-#include "other.h"
-#include "main.h"
-#include "manager.h"
-#include "core\pipe.h"
-#include "core\FileTools.h"
+#include "../../../core/include/core/pipe.h"
+#include "../../../core/include/core/FileTools.h"
+#include "../../include/Manager.h"
 
 namespace Plugins
 {

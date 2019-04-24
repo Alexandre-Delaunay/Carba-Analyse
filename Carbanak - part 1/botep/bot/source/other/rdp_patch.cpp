@@ -1,8 +1,9 @@
-#include "core\FileTools.h"
-#include "core\service.h"
-#include "core\process.h"
-#include "core\debug.h"
-#include "other.h"
+#include <cstddef>
+#include "../../../core/include/core/type.h"
+#include "../../../core/include/core/FileTools.h"
+#include "../../../core/include/core/debug.h"
+#include "../../../core/include/core/service.h"
+#include "../../include/other.h"
 
 typedef DWORD (WINAPI *typeSfcFileException)( HANDLE rpc,LPCWSTR fname,DWORD type );
 

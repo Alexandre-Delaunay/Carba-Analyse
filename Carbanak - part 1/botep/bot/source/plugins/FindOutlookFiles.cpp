@@ -1,7 +1,3 @@
-#include "plugins.h"
-#include "other.h"
-#include "main.h"
-#include "core\pipe.h"
 
 namespace Plugins
 {

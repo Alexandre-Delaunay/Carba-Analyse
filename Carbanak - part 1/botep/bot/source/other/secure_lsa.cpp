@@ -1,10 +1,10 @@
+#include "../../../core/include/core/memory.h"
+#include "../../../core/include/core/reestr.h"
+#include "../../../core/include/core/string.h"
+#include "../../../core/include/core/File.h"
+#include "../../../core/include/core/debug.h"
+#include "../../../core/include/core/rand.h"
 #pragma once
-
-#include "core\core.h"
-#include "core\debug.h"
-#include "core\reestr.h"
-#include "core\rand.h"
-#include "core\file.h"
 
 namespace Secure
 {

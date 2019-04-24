@@ -1,10 +1,6 @@
+#include "../../../core/include/core/cab.h"
+#include "../../include/Manager.h"
 #pragma once
-
-#include "other.h"
-#include "core\file.h"
-#include "core\cab.h"
-#include "core\debug.h"
-#include "Manager.h"
 
 const int MaxCabs = 50;
 const int MaxSize = 2 * 1024 * 1024; //максимальный размер файлов помещаемых в один архив

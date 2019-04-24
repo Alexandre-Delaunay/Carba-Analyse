@@ -1,6 +1,5 @@
+#include "../../core/include/core/memory.h"
 #pragma once
-
-#include "core\core.h"
 
 //возвращает различную информацию о боте, компе, ОС
 

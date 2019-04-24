@@ -1,12 +1,11 @@
+#include "../../../core/include/core/proxy.h"
+#include "../../../core/include/core/reestr.h"
+#include "../../../core/include/core/File.h"
+#include "../../include/Manager.h"
+#include "../../../core/include/core/sniffer.h"
+#include "../../../core/include/core/debug.h"
 #pragma once
 
-#include "core\proxy.h"
-#include "core\reestr.h"
-#include "core\file.h"
-#include "core\debug.h"
-#include "core\sniffer.h"
-#include "other.h"
-#include "manager.h"
 
 static int AppendAddr( Proxy::Info* addr, int count, int size, Proxy::Type type, const char* ipPort )
 {

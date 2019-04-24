@@ -1,5 +1,6 @@
-#include "other.h"
-#include "Manager.h"
+#include "../../../core/include/core/process.h"
+#include "../../include/Manager.h"
+
 
 static bool ListProcessCallback( Process::ProcessInfo& pi, void* tag )
 {

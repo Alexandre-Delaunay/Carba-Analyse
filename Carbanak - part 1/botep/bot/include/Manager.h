@@ -1,8 +1,9 @@
+#include <cstddef>
+#include "../../core/include/core/misc.h"
+#include "../../core/include/core/memory.h"
+#include "../../core/include/core/pipe.h"
+#include "../../core/include/core/proxy.h"
 #pragma once
-
-#include "core\pipe.h"
-#include "core\vector.h"
-#include "core\http.h"
 
 class ManagerServer : public PipeServer
 {

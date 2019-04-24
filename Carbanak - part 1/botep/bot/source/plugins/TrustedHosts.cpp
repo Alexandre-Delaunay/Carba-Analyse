@@ -1,6 +1,6 @@
-#include "plugins.h"
-#include "core/reestr.h"
-#include "manager.h"
+#include "../../../core/include/core/string.h"
+#include "../../include/Manager.h"
+#include "../../../core/include/core/reestr.h"
 
 namespace Plugins
 {

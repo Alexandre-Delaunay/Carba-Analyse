@@ -1,6 +1,5 @@
+#include "../../core/include/core/memory.h"
 #pragma once
-
-#include "core\core.h"
 
 //добавляет указанный файл в список разрешенных браундмаузера винды
 bool AddAllowedprogram( StringBuilder& path );

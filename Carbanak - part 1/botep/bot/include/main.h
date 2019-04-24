@@ -1,11 +1,6 @@
+#include "../../core/include/core/type.h"
+#include "../../core/include/core/memory.h"
 #pragma once
-
-#include "config.h"
-#include "core\core.h"
-#include "core\debug.h"
-#include "core\injects.h"
-#include "core\rand.h"
-#include "AV.h"
 
 //настроечные поля для state
 const int NOT_DIRECT_INJECT = 0x0001; //нельзя выполнять прямой инжект в процесс

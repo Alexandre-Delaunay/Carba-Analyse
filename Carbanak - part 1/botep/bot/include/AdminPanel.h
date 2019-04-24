@@ -1,6 +1,6 @@
-#include "core\core.h"
-#include "core\debug.h"
-#include "core\pipe.h"
+#include "../../core/include/core/type.h"
+#include "../../core/include/core/memory.h"
+#include "../../core/include/core/pipe.h"
 
 namespace AdminPanel
 {

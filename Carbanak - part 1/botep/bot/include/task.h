@@ -1,7 +1,6 @@
+#include "../../core/include/core/pipe.h"
 #pragma once
 
-#include "core\core.h"
-#include "core\pipe.h"
 
 //выполнение команд
 

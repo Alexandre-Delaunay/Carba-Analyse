@@ -1,4 +1,5 @@
-#include "system.h"
+#include "../../../core/include/core/type.h"
+#include "../../../core/include/core/memory.h"
 
 namespace System
 {

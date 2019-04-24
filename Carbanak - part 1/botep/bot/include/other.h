@@ -1,8 +1,6 @@
+#include "../../core/include/core/memory.h"
+#include "../../core/include/core/proxy.h"
 #pragma once
-
-#include "core\core.h"
-#include "core\proxy.h"
-#include "config.h"
 
 namespace mimikatz
 {

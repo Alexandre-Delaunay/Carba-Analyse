@@ -1,8 +1,7 @@
+#include "../../core/include/core/type.h"
+#include "../../core/include/core/memory.h"
 #pragma once
 //различные системы
-
-#include "core\core.h"
-#include "config.h"
 
 namespace System
 {

@@ -1,7 +1,6 @@
+#include "../../core/include/core/type.h"
+#include "../../core/include/core/memory.h"
 #pragma once
-
-#include "core\core.h"
-#include "core\pipe.h"
 
 //песочница для выполнения команд в отдельных процессах
 

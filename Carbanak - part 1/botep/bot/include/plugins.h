@@ -1,8 +1,5 @@
 #pragma once
 
-#include "core\core.h"
-#include "config.h"
-
 //выполняет плагины зашитые в бота, в config.h включаются или отключаются
 namespace Plugins
 {
