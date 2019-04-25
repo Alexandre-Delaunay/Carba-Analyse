@@ -1,10 +1,15 @@
+#include "../../../include/mimikatz/inc/NTSecPKG.h"
+#include "../../../include/mimikatz/inc/globals.h"
+#include "../../../include/mimikatz/modules/kull_m_patch.h"
+#include "../../../include/mimikatz/sekurlsa/packages/kuhl_m_sekurlsa_kerberos.h"
+#include "../../../../core/include/core/winapi_simple.h"
 /*	Benjamin DELPY `gentilkiwi`
 	http://blog.gentilkiwi.com
 	benjamin@gentilkiwi.com
 	Licence : http://creativecommons.org/licenses/by/3.0/fr/
 */
-#include "kuhl_m_sekurlsa_kerberos.h"
-#include "core\string_crypt.h"
+//#include "kuhl_m_sekurlsa_kerberos.h"
+//#include "core\string_crypt.h"
 
 #ifdef _M_X64
 BYTE PTRN_WALL_KerbFreeLogonSessionList[]	= {0x48, 0x3b, 0xfe, 0x0f, 0x84};

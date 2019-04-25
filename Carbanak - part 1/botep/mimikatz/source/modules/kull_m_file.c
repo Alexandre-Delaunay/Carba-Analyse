@@ -1,10 +1,12 @@
+#include "../../../core/include/core/api_funcs_type.h"
+#include "../../../core/include/core/winapi_simple.h"
 /*	Benjamin DELPY `gentilkiwi`
 	http://blog.gentilkiwi.com
 	benjamin@gentilkiwi.com
 	Licence : http://creativecommons.org/licenses/by/3.0/fr/
 */
-#include "kull_m_file.h"
-#include "winapi.h"
+//#include "kull_m_file.h"
+//#include "winapi.h"
 
 BOOL kull_m_file_getCurrentDirectory(wchar_t ** ppDirName)
 {

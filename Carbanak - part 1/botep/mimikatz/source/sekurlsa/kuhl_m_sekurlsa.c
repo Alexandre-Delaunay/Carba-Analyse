@@ -3,9 +3,10 @@
 	benjamin@gentilkiwi.com
 	Licence : http://creativecommons.org/licenses/by/3.0/fr/
 */
-#include "winapi.h"
-#include "kuhl_m_sekurlsa.h"
-#include "core\string_crypt.h"
+
+//#include "winapi.h"
+//#include "kuhl_m_sekurlsa.h"
+//#include "core\string_crypt.h"
 
 const KUHL_M_C kuhl_m_c_sekurlsa[] = {
 /*

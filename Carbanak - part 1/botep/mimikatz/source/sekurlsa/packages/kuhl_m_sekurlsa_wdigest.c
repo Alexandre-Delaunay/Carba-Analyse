@@ -1,9 +1,12 @@
+#include "../../../include/mimikatz/inc/globals.h"
+#include "../../../include/mimikatz/sekurlsa/packages/kuhl_m_sekurlsa_wdigest.h"
+#include "../../../../core/include/core/winapi_simple.h"
 /*	Benjamin DELPY `gentilkiwi`
 	http://blog.gentilkiwi.com
 	benjamin@gentilkiwi.com
 	Licence : http://creativecommons.org/licenses/by/3.0/fr/
 */
-#include "kuhl_m_sekurlsa_wdigest.h"
+//#include "kuhl_m_sekurlsa_wdigest.h"
 
 #ifdef _M_X64
 BYTE PTRN_WIN5_PasswdSet[]	= {0x48, 0x3b, 0xda, 0x74};

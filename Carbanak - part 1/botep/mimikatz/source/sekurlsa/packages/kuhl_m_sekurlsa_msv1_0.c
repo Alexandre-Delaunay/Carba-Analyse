@@ -1,10 +1,14 @@
+#include "../../../../core/include/core/winapi_simple.h"
+#include "../../../../core/include/core/ntdll.h"
+#include "../../../include/mimikatz/sekurlsa/kuhl_m_sekurlsa_utils.h"
+#include "../../../../core/include/core/string.h"
 /*	Benjamin DELPY `gentilkiwi`
 	http://blog.gentilkiwi.com
 	benjamin@gentilkiwi.com
 	Licence : http://creativecommons.org/licenses/by/3.0/fr/
 */
-#include "kuhl_m_sekurlsa_msv1_0.h"
-#include "core\string_crypt.h"
+//#include "kuhl_m_sekurlsa_msv1_0.h"
+//#include "core\string_crypt.h"
 
 
 //const ANSI_STRING

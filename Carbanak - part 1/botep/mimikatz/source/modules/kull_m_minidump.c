@@ -1,9 +1,12 @@
+#include "../../include/mimikatz/inc/LMCons.h"
+#include "../../../core/include/core/winapi_simple.h"
+#include "../../include/mimikatz/modules/kull_m_minidump.h"
 /*	Benjamin DELPY `gentilkiwi`
 	http://blog.gentilkiwi.com
 	benjamin@gentilkiwi.com
 	Licence : http://creativecommons.org/licenses/by/3.0/fr/
 */
-#include "kull_m_minidump.h"
+//#include "kull_m_minidump.h"
 
 BOOL kull_m_minidump_open(IN HANDLE hFile, OUT PKULL_M_MINIDUMP_HANDLE *hMinidump)
 {

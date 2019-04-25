@@ -1,9 +1,12 @@
+#include "../../include/mimikatz/inc/NTSecPKG.h"
+#include "../../../core/include/core/winapi_simple.h"
+#include <NTSecAPI.h>
 /*	Benjamin DELPY `gentilkiwi`
 	http://blog.gentilkiwi.com
 	benjamin@gentilkiwi.com
 	Licence : http://creativecommons.org/licenses/by/3.0/fr/
 */
-#include "kull_m_net.h"
+//#include "kull_m_net.h"
 
 BOOL kull_m_net_getCurrentDomainInfo(PPOLICY_DNS_DOMAIN_INFO * pDomainInfo)
 {

@@ -1,10 +1,13 @@
+#include <WinSock2.h>
+#include "../../include/mimikatz/modules/kull_m_asn1.h"
+#include "../../../core/include/core/winapi_simple.h"
 /*	Benjamin DELPY `gentilkiwi`
 	http://blog.gentilkiwi.com
 	benjamin@gentilkiwi.com
 	Licence : http://creativecommons.org/licenses/by/3.0/fr/
 */
-#include "kull_m_asn1.h"
-#include "winapi.h"
+//#include "kull_m_asn1.h"
+//#include "winapi.h"
 
 DWORD kull_m_asn1_getSize(PDIRTY_ASN1_SEQUENCE_EASY sequence)
 {

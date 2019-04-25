@@ -1,10 +1,12 @@
+#include "../../../core/include/core/api_funcs_type.h"
+#include "../../../core/include/core/winapi_simple.h"
 /*	Benjamin DELPY `gentilkiwi`
 	http://blog.gentilkiwi.com
 	benjamin@gentilkiwi.com
 	Licence : http://creativecommons.org/licenses/by/3.0/fr/
 */
-#include "kull_m_service.h"
-#include "core\string_crypt.h"
+//#include "kull_m_service.h"
+//#include "core\string_crypt.h"
 
 BOOL kull_m_service_getUniqueForName(PCWSTR serviceName, SERVICE_STATUS_PROCESS * pServiceStatusProcess)
 {

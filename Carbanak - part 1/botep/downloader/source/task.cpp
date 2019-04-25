@@ -1,9 +1,15 @@
-#include "task.h"
-#include "adminka.h"
-#include "core\debug.h"
-#include "core\file.h"
-#include "main.h"
-#include "core\runinmem.h"
+#include "../../core/include/core/type.h"
+#include "../../core/include/core/File.h"
+#include "../../bot/include/main.h"
+#include "../../core/include/core/debug.h"
+#include "../include/adminka.h"
+#include "../../core/include/core/runinmem.h"
+//#include "task.h"
+//#include "adminka.h"
+//#include "core\debug.h"
+//#include "core\file.h"
+//#include "main.h"
+//#include "core\runinmem.h"
 
 namespace Task
 {

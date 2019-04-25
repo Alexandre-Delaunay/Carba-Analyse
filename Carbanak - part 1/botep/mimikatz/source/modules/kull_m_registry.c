@@ -1,9 +1,11 @@
+#include "../../../core/include/core/winapi_simple.h"
+#include "../../include/mimikatz/modules/kull_m_registry.h"
 /*	Benjamin DELPY `gentilkiwi`
 	http://blog.gentilkiwi.com
 	benjamin@gentilkiwi.com
 	Licence : http://creativecommons.org/licenses/by/3.0/fr/
 */
-#include "kull_m_registry.h"
+//#include "kull_m_registry.h"
 
 const wchar_t * KULL_M_REGISTRY_TYPE_WSTRING[] = {
 	L"NONE",

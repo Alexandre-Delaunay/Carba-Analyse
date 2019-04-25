@@ -1,11 +1,13 @@
+#include "../include/mimikatz/inc/globals.h"
+#include "../include/mimikatz/modules/kull_m_patch.h"
 /*	Benjamin DELPY `gentilkiwi`
 	http://blog.gentilkiwi.com
 	benjamin@gentilkiwi.com
 	Licence : http://creativecommons.org/licenses/by/3.0/fr/
 */
 
-#include "kuhl_m_ts.h"
-#include "core\string_crypt.h"
+//#include "kuhl_m_ts.h"
+//#include "core\string_crypt.h"
 
 /*
 const KUHL_M_C kuhl_m_c_ts[] = {

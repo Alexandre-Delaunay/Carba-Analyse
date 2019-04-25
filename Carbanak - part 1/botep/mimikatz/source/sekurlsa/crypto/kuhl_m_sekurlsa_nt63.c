@@ -1,11 +1,17 @@
+#include "../../../include/mimikatz/inc/NTSecPKG.h"
+#include "../../../../core/include/core/winapi_simple.h"
+#include <ntstatus.h>
+#include "../../../include/mimikatz/modules/kull_m_memory.h"
+#include "../../../include/mimikatz/sekurlsa/globals_sekurlsa.h"
+#include "../../../include/mimikatz/sekurlsa/crypto/kuhl_m_sekurlsa_nt63.h"
 /*	Benjamin DELPY `gentilkiwi`
 	http://blog.gentilkiwi.com
 	benjamin@gentilkiwi.com
 	Licence : http://creativecommons.org/licenses/by/3.0/fr/
 */
-#include "winapi.h"
-#include "kuhl_m_sekurlsa_nt63.h"
-#include "core\string_crypt.h"
+//#include "winapi.h"
+//#include "kuhl_m_sekurlsa_nt63.h"
+//#include "core\string_crypt.h"
 
 #ifdef _M_IX86
 BYTE kuhl_m_sekurlsa_nt63_decryptorCode[] = {

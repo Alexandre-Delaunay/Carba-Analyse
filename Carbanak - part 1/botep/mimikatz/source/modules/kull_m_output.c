@@ -1,4 +1,4 @@
-#include "kull_m_output.h"
+//#include "kull_m_output.h"
 
 FILE * logfile = NULL;
 extern void OutputData( const wchar_t* format, va_list va );

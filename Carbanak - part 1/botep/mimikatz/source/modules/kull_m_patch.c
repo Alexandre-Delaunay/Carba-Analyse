@@ -1,10 +1,14 @@
+#include "../../../core/include/core/winapi_simple.h"
+#include "../../include/mimikatz/modules/kull_m_memory.h"
+#include "../../include/mimikatz/modules/kull_m_patch.h"
+#include "../../include/mimikatz/inc/globals.h"
 /*	Benjamin DELPY `gentilkiwi`
 	http://blog.gentilkiwi.com
 	benjamin@gentilkiwi.com
 	Licence : http://creativecommons.org/licenses/by/3.0/fr/
 */
-#include "kull_m_patch.h"
-#include "core\string_crypt.h"
+//#include "kull_m_patch.h"
+//#include "core\string_crypt.h"
 
 BOOL kull_m_patch(PKULL_M_MEMORY_SEARCH sMemory, PKULL_M_MEMORY_ADDRESS pPattern, SIZE_T szPattern, PKULL_M_MEMORY_ADDRESS pPatch, SIZE_T szPatch, LONG offsetOfPatch, PKULL_M_PATCH_CALLBACK pCallBackBeforeRestore, int argc, wchar_t * args[], NTSTATUS * pRetCallBack)
 {

@@ -1,6 +1,10 @@
-#include "mimikatz.h"
-#include "core\string.h"
-#include "core\reestr.h"
+#include "../../core/include/core/string_crypt.h"
+#include "../../core/include/core/memory.h"
+#include "../../core/include/core/string.h"
+#include "../../core/include/core/reestr.h"
+//#include "mimikatz.h"
+//#include "core\string.h"
+//#include "core\reestr.h"
 
 #define KULL_M_WIN_BUILD_XP		2600
 #define KULL_M_WIN_BUILD_2K3	3790

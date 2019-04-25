@@ -7,6 +7,7 @@
 #include "builder_guiDlg.h"
 #include "afxdialogex.h"
 #include "misc.h"
+#include <Windows.h>
 
 #ifdef _DEBUG
 #define new DEBUG_NEW

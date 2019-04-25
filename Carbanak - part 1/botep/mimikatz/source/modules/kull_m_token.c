@@ -3,7 +3,9 @@
 	benjamin@gentilkiwi.com
 	Licence : http://creativecommons.org/licenses/by/3.0/fr/
 */
-#include "kull_m_token.h"
+//#include "kull_m_token.h"
+#include "../../../core/include/core/winapi_simple.h"
+#include "../../include/mimikatz/modules/kull_m_token.h"
 
 BOOL kull_m_token_getNameDomainFromToken(HANDLE hToken, PWSTR * pName, PWSTR * pDomain, PWSTR * pSid, PSID_NAME_USE pSidNameUse)
 {

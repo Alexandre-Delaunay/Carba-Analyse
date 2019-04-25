@@ -1,9 +1,14 @@
+#include "../../../core/include/core/winapi_simple.h"
+#include "../../../core/include/core/ntdll.h"
+#include "../../include/mimikatz/inc/DbgHelp.h"
+#include "../../include/mimikatz/modules/kull_m_process.h"
+#include <ntstatus.h>
 /*	Benjamin DELPY `gentilkiwi`
 	http://blog.gentilkiwi.com
 	benjamin@gentilkiwi.com
 	Licence : http://creativecommons.org/licenses/by/3.0/fr/
 */
-#include "kull_m_process.h"
+//#include "kull_m_process.h"
 
 NTSTATUS kull_m_process_getProcessInformation(PKULL_M_PROCESS_ENUM_CALLBACK callBack, PVOID pvArg)
 {

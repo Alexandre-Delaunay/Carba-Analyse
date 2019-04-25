@@ -1,5 +1,7 @@
 #include "stdafx.h"
 #include "misc.h"
+#include <cstdarg>
+#include <Windows.h>
 
 static int MsgDlgV( HWND wnd, const char* msg, const char* caption, int style, va_list args )
 {

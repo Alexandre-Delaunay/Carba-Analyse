@@ -1,9 +1,12 @@
+#include "../../../include/mimikatz/inc/globals.h"
+#include "../../../include/mimikatz/modules/kull_m_patch.h"
+#include "../../../include/mimikatz/sekurlsa/packages/kuhl_m_sekurlsa_livessp.h"
 /*	Benjamin DELPY `gentilkiwi`
 	http://blog.gentilkiwi.com
 	benjamin@gentilkiwi.com
 	Licence : http://creativecommons.org/licenses/by/3.0/fr/
 */
-#include "kuhl_m_sekurlsa_livessp.h"
+//#include "kuhl_m_sekurlsa_livessp.h"
 
 #ifdef _M_X64
 BYTE PTRN_WALL_LiveLocateLogonSession[]	= {0x74, 0x25, 0x8b};

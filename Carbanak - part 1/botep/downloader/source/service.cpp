@@ -1,9 +1,14 @@
-#include "main.h"
-#include "service.h"
-#include "core\file.h"
-#include "core\debug.h"
-#include "core\reestr.h"
-#include "core\service.h"
+#include "../../bot/include/AdminPanel.h"
+#include "../../bot/include/main.h"
+#include "../../core/include/core/File.h"
+#include "../../core/include/core/debug.h"
+#include "../../core/include/core/service.h"
+//#include "main.h"
+//#include "service.h"
+//#include "core\file.h"
+//#include "core\debug.h"
+//#include "core\reestr.h"
+//#include "core\service.h"
 
 namespace Service
 {

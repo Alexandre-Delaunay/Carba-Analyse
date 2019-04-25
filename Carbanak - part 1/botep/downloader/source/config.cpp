@@ -1,8 +1,16 @@
-#include "main.h"
-#include "config.h"
-#include "core\debug.h"
-#include "core\crypt.h"
-#include "core\util.h"
+#include <cstddef>
+#include "../../core/include/core/type.h"
+#include "../../core/include/core/misc.h"
+#include "../../core/include/core/string.h"
+#include "../../core/include/core/debug.h"
+#include "../../bot/include/main.h"
+#include "../../core/include/core/crypt.h"
+#include "../../core/include/core/util.h"
+//#include "main.h"
+//#include "config.h"
+//#include "core\debug.h"
+//#include "core\crypt.h"
+//#include "core\util.h"
 
 namespace Config
 {

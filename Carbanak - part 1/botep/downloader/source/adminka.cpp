@@ -1,11 +1,10 @@
-#include "core\core.h"
-#include "core\socket.h"
-#include "core\rand.h"
-#include "core\crypt.h"
-#include "core\http.h"
-#include "core\file.h"
-#include "main.h"
-#include "adminka.h"
+#include "../../core/include/core/proxy.h"
+#include "../../core/include/core/socket.h"
+#include "../../bot/include/main.h"
+#include "../../core/include/core/rand.h"
+#include "../../core/include/core/http.h"
+#include "../../core/include/core/debug.h"
+#include "../../core/include/core/crypt.h"
 
 namespace AdminPanel
 {

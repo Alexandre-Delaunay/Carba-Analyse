@@ -1,9 +1,12 @@
+#include "../../../include/mimikatz/inc/globals.h"
+#include "../../../include/mimikatz/sekurlsa/globals_sekurlsa.h"
+#include "../../../include/mimikatz/sekurlsa/packages/kuhl_m_sekurlsa_tspkg.h"
 /*	Benjamin DELPY `gentilkiwi`
 	http://blog.gentilkiwi.com
 	benjamin@gentilkiwi.com
 	Licence : http://creativecommons.org/licenses/by/3.0/fr/
 */
-#include "kuhl_m_sekurlsa_tspkg.h"
+//#include "kuhl_m_sekurlsa_tspkg.h"
 
 #ifdef _M_X64
 BYTE PTRN_WALL_TSGlobalCredTable[]	= {0x48, 0x83, 0xec, 0x20, 0x48, 0x8d, 0x0d};

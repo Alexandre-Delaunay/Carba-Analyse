@@ -1,9 +1,11 @@
+#include "../../../core/include/core/winapi_simple.h"
+#include "../../include/mimikatz/modules/kull_m_handle.h"
 /*	Benjamin DELPY `gentilkiwi`
 	http://blog.gentilkiwi.com
 	benjamin@gentilkiwi.com
 	Licence : http://creativecommons.org/licenses/by/3.0/fr/
 */
-#include "kull_m_handle.h"
+//#include "kull_m_handle.h"
 
 NTSTATUS kull_m_handle_getHandles(PKULL_M_HANDLE_ENUM_CALLBACK callBack, PVOID pvArg)
 {

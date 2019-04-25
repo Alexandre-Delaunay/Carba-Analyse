@@ -1,10 +1,13 @@
+#include "../../../core/include/core/api_funcs_type.h"
+#include "../../include/mimikatz/modules/kull_m_memory.h"
+#include "../../../core/include/core/winapi_simple.h"
 /*	Benjamin DELPY `gentilkiwi`
 	http://blog.gentilkiwi.com
 	benjamin@gentilkiwi.com
 	Licence : http://creativecommons.org/licenses/by/3.0/fr/
 */
-#include "kull_m_string.h"
-#include "core\string_crypt.h"
+//#include "kull_m_string.h"
+//#include "core\string_crypt.h"
 
 BOOL kull_m_string_suspectUnicodeStringStructure(IN PUNICODE_STRING pUnicodeString)
 {
