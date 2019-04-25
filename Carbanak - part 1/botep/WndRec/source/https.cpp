@@ -1,6 +1,11 @@
-#include "https.h"
-#include "core\rand.h"
-#include "core\debug.h"
+#include "../../core/include/core/misc.h"
+#include "../../core/include/core/string.h"
+#include "../../core/include/core/rand.h"
+#include "../../core/include/core/debug.h"
+#include "../include/https.h"
+//#include "https.h"
+//#include "core\rand.h"
+//#include "core\debug.h"
 
 namespace WndRec
 {

@@ -1,12 +1,17 @@
+#include "../include/WndRec/tunnel.h"
+#include "../../core/include/core/misc.h"
+#include "../../core/include/core/debug.h"
+#include "../../core/include/core/socket.h"
+
 //расчитываем максимум на 100 одновременно открытых сокетов, нужно учитывать это в системах
 //где используются эти туннели
 #define FD_SETSIZE 100
 
-#include "core\core.h"
-#include "WndRec\sender.h"
-#include "WndRec\manager.h"
-#include "WndRec\tunnel.h"
-#include "core\debug.h"
+//#include "core\core.h"
+//#include "WndRec\sender.h"
+//#include "WndRec\manager.h"
+//#include "WndRec\tunnel.h"
+//#include "core\debug.h"
 
 namespace WndRec
 {

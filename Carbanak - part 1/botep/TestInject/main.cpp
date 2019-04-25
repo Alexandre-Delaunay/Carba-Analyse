@@ -1,5 +1,5 @@
-#include "core\core.h"
-#include "core\injects.h"
+//#include "core\core.h"
+//#include "core\injects.h"
 
 DWORD WINAPI ExplorerEntry( void* )
 {

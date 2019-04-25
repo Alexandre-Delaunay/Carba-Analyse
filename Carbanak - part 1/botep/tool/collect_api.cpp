@@ -1,6 +1,7 @@
-#include "core\core.h"
-#include "core\file.h"
+//#include "core\core.h"
+//#include "core\file.h"
 #include <stdio.h>
+#include "../core/include/core/string.h"
 
 struct CollectData
 {

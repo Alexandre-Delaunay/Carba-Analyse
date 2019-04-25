@@ -1,6 +1,6 @@
-#include "WndRec\file.h"
-#include "WndRec\manager.h"
-#include "core\debug.h"
+//#include "WndRec\file.h"
+//#include "WndRec\manager.h"
+//#include "core\debug.h"
 
 namespace WndRec
 {

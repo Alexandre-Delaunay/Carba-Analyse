@@ -1,13 +1,20 @@
-#include "core\core.h"
-#include "core\rand.h"
-#include "core\file.h"
+//#include "core\core.h"
+//#include "core\rand.h"
+//#include "core\file.h"
+//#include "WndRec\WndRec.h"
+//#include "WndRec\sender.h"
+//#include "WndRec\lzw.h"
 #include <winsock2.h>
 #include <windows.h>
-#include "WndRec\WndRec.h"
 #include <memory.h>
-#include "WndRec\sender.h"
-#include "WndRec\lzw.h"
 #include "..\..\Bot\config\builder.h"
+#include "../../core/include/core/type.h"
+#include "../../core/include/core/memory.h"
+#include "../include/WndRec/lzw.h"
+#include "../include/WndRec/sender.h"
+#include "../../core/include/core/rand.h"
+#include "../../core/include/core/socket.h"
+#include "../../core/include/core/debug.h"
 
 namespace Config
 {

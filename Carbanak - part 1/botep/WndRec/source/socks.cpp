@@ -1,9 +1,15 @@
-#include "core\core.h"
-#include "WndRec\sender.h"
-#include "WndRec\manager.h"
-#include "WndRec\tunnel.h"
-#include "core\debug.h"
-#include "core\socket.h"
+#include "../include/WndRec/video.h"
+#include "../../core/include/core/debug.h"
+#include "../../core/include/core/socket.h"
+#include "../../core/include/core/winapi_simple.h"
+#include "../include/WndRec/tunnel.h"
+#include "../include/WndRec/sender.h"
+//#include "core\core.h"
+//#include "WndRec\sender.h"
+//#include "WndRec\manager.h"
+//#include "WndRec\tunnel.h"
+//#include "core\debug.h"
+//#include "core\socket.h"
 
 namespace WndRec
 {

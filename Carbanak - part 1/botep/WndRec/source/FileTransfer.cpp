@@ -1,7 +1,8 @@
-#include "core\file.h"
-#include "core\debug.h"
-#include "WndRec\FileTransfer.h"
-#include "WndRec\stream.h"
+#include "../../core/include/core/memory.h"
+//#include "core\file.h"
+//#include "core\debug.h"
+//#include "WndRec\FileTransfer.h"
+//#include "WndRec\stream.h"
 
 namespace WndRec
 {

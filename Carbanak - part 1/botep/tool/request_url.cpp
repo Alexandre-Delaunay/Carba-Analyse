@@ -1,7 +1,11 @@
-#include "core\core.h"
-#include "core\crypt.h"
-#include "core\rand.h"
+//#include "core\core.h"
+//#include "core\crypt.h"
+//#include "core\rand.h"
 #include <stdio.h>
+#include "../core/include/core/memory.h"
+#include "../core/include/core/rand.h"
+#include "../core/include/core/string.h"
+#include "../core/include/core/crypt.h"
 
 const int CountSimpleExts = 7;
 char* SimpleExts[CountSimpleExts] = { ".gif", ".jpg", ".png", ".htm", ".html", ".php", ".shtml" };

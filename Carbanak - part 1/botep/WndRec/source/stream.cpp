@@ -1,6 +1,14 @@
-#include "WndRec\stream.h"
-#include "core\file.h"
-#include "core\debug.h"
+#include "../../core/include/core/type.h"
+#include "../../core/include/core/misc.h"
+#include "../../core/include/core/memory.h"
+#include "../include/WndRec/manager.h"
+#include "../include/WndRec/stream.h"
+#include "../../core/include/core/string.h"
+#include "../../core/include/core/File.h"
+#include "../include/WndRec/sender.h"
+//#include "WndRec\stream.h"
+//#include "core\file.h"
+//#include "core\debug.h"
 
 namespace WndRec
 {

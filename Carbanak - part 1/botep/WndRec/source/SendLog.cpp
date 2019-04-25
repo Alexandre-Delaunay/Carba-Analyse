@@ -1,5 +1,9 @@
-#include "core\core.h"
-#include "WndRec\manager.h"
+//#include "core\core.h"
+//#include "WndRec\manager.h"
+
+#include "../include/WndRec/manager.h"
+#include "../../core/include/core/string.h"
+#include "../include/WndRec/sender.h"
 
 namespace WndRec
 {

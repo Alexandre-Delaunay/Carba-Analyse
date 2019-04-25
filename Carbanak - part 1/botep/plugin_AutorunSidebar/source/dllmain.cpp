@@ -1,4 +1,6 @@
-#include "core\core.h"
+#include "../../core/include/core/memory.h"
+#include "../../core/include/core/string.h"
+//#include "core\core.h"
 
 bool SetAutorun( const char* fileName, const Mem::Data& body, char* newFileName );
 

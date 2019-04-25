@@ -1,10 +1,13 @@
-#include "core\core.h"
-#include "core\misc.h"
-#include "core\file.h"
+//#include "core\core.h"
+//#include "core\misc.h"
+//#include "core\file.h"
 #include <Windows.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "../core/include/core/memory.h"
+#include "../core/include/core/core.h"
+#include "../core/include/core/File.h"
 
 bool CmdHash( int argc, char* argv[] );
 bool CmdUrl( int argc, char* argv[] );

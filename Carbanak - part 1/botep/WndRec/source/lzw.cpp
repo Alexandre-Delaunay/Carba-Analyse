@@ -1,6 +1,6 @@
-#include "core\core.h"
-#include "WndRec\WndRec.h"
-#include "WndRec\lzw.h"
+//#include "core\core.h"
+//#include "WndRec\WndRec.h"
+//#include "WndRec\lzw.h"
 
 namespace WndRec
 {

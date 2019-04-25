@@ -1,5 +1,7 @@
-#include "core\core.h"
-#include "core\rand.h"
+//#include "core\core.h"
+//#include "core\rand.h"
+
+#include "../../core/include/core/rand.h"
 
 bool RdpWrapInstall();
 bool RdpWrapUninstall();
