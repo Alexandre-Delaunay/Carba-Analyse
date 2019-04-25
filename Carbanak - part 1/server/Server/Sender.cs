@@ -117,7 +117,11 @@ namespace Server
 			rnd = new Random();
 		}
 
-		public int Recv(byte[] buf, int from, int sz)
+        public Sender(Socket sc2)
+        {
+        }
+
+        public int Recv(byte[] buf, int from, int sz)
 		{
 			int c = 0;
 			if (sc != null)
