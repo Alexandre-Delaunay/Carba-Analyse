@@ -41,7 +41,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(162, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "До какой даты удалять видео:";
+            this.label1.Text = "Up to which date to delete video:";
             // 
             // dtDate
             // 
@@ -67,7 +67,7 @@
             this.btCancel.Name = "btCancel";
             this.btCancel.Size = new System.Drawing.Size(75, 23);
             this.btCancel.TabIndex = 3;
-            this.btCancel.Text = "Отмены";
+            this.btCancel.Text = "Cancellations";
             this.btCancel.UseVisualStyleBackColor = true;
             this.btCancel.Click += new System.EventHandler(this.btCancel_Click);
             // 
@@ -87,7 +87,7 @@
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Ввод даты";
+            this.Text = "Date entry";
             this.ResumeLayout(false);
             this.PerformLayout();
 

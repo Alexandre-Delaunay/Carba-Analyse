@@ -141,17 +141,17 @@
 			// 
 			// clnInfo
 			// 
-			this.clnInfo.Text = "Инфо";
+			this.clnInfo.Text = "Info";
 			this.clnInfo.Width = 300;
 			// 
 			// clnComment
 			// 
-			this.clnComment.Text = "Комментарий";
+			this.clnComment.Text = "Comment";
 			this.clnComment.Width = 300;
 			// 
 			// clnPorts
 			// 
-			this.clnPorts.Text = "Проброшенные порты";
+			this.clnPorts.Text = "Flipped ports";
 			this.clnPorts.Width = 200;
 			// 
 			// clnIp
@@ -161,17 +161,17 @@
 			// 
 			// clnDateBeg
 			// 
-			this.clnDateBeg.Text = "Время соединения";
+			this.clnDateBeg.Text = "Connection time";
 			this.clnDateBeg.Width = 120;
 			// 
 			// clnElapsed
 			// 
-			this.clnElapsed.Text = "Прошло времени";
+			this.clnElapsed.Text = "Elapsed time";
 			this.clnElapsed.Width = 120;
 			// 
 			// clnRecv
 			// 
-			this.clnRecv.Text = "Принято Кбайт";
+			this.clnRecv.Text = "Kbyte accepted";
 			this.clnRecv.Width = 120;
 			// 
 			// panel1
@@ -199,7 +199,7 @@
 			this.groupBox1.Size = new System.Drawing.Size(765, 121);
 			this.groupBox1.TabIndex = 20;
 			this.groupBox1.TabStop = false;
-			this.groupBox1.Text = "Быстрые команды";
+			this.groupBox1.Text = "Fast teams";
 			// 
 			// tbVNCPort
 			// 
@@ -216,7 +216,7 @@
 			this.label8.Name = "label8";
 			this.label8.Size = new System.Drawing.Size(35, 13);
 			this.label8.TabIndex = 21;
-			this.label8.Text = "Порт:";
+			this.label8.Text = "Port:";
 			// 
 			// btRunVNC
 			// 
@@ -226,7 +226,7 @@
 			this.btRunVNC.Name = "btRunVNC";
 			this.btRunVNC.Size = new System.Drawing.Size(112, 66);
 			this.btRunVNC.TabIndex = 20;
-			this.btRunVNC.Text = "Запуск\r\nVNC";
+			this.btRunVNC.Text = "Launch\r\nVNC";
 			this.btRunVNC.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
 			this.btRunVNC.UseVisualStyleBackColor = true;
 			this.btRunVNC.Click += new System.EventHandler(this.btRunVNC_Click);
@@ -239,7 +239,7 @@
 			this.btRunRDP.Name = "btRunRDP";
 			this.btRunRDP.Size = new System.Drawing.Size(112, 66);
 			this.btRunRDP.TabIndex = 6;
-			this.btRunRDP.Text = "Запуск\r\nRDP";
+			this.btRunRDP.Text = "Launch\r\nRDP";
 			this.btRunRDP.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
 			this.btRunRDP.UseVisualStyleBackColor = true;
 			this.btRunRDP.Click += new System.EventHandler(this.btRunRDP_Click);
@@ -252,7 +252,7 @@
 			this.btStartSocks5.Name = "btStartSocks5";
 			this.btStartSocks5.Size = new System.Drawing.Size(112, 66);
 			this.btStartSocks5.TabIndex = 19;
-			this.btStartSocks5.Text = "Запуск\r\nSocks5";
+			this.btStartSocks5.Text = "Launch\r\nSocks5";
 			this.btStartSocks5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
 			this.btStartSocks5.UseVisualStyleBackColor = true;
 			this.btStartSocks5.Click += new System.EventHandler(this.btStartSocks5_Click);
@@ -265,7 +265,7 @@
 			this.btOffBot.Name = "btOffBot";
 			this.btOffBot.Size = new System.Drawing.Size(139, 66);
 			this.btOffBot.TabIndex = 8;
-			this.btOffBot.Text = "Отключить\r\nбот";
+			this.btOffBot.Text = "Turn off\r\nбот";
 			this.btOffBot.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
 			this.btOffBot.UseVisualStyleBackColor = true;
 			this.btOffBot.Click += new System.EventHandler(this.btOffBot_Click);
@@ -285,7 +285,7 @@
 			this.btClosePortForward.Name = "btClosePortForward";
 			this.btClosePortForward.Size = new System.Drawing.Size(122, 66);
 			this.btClosePortForward.TabIndex = 7;
-			this.btClosePortForward.Text = "Закрыть\r\nвсе\r\nпорты";
+			this.btClosePortForward.Text = "Close\r\nports";
 			this.btClosePortForward.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
 			this.btClosePortForward.UseVisualStyleBackColor = true;
 			this.btClosePortForward.Click += new System.EventHandler(this.btClosePortForward_Click);
@@ -298,7 +298,7 @@
 			this.btPortForward.Name = "btPortForward";
 			this.btPortForward.Size = new System.Drawing.Size(123, 66);
 			this.btPortForward.TabIndex = 11;
-			this.btPortForward.Text = "Проброс\r\nпорта";
+			this.btPortForward.Text = "Forwarding\r\nthe port";
 			this.btPortForward.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
 			this.btPortForward.UseVisualStyleBackColor = true;
 			this.btPortForward.Click += new System.EventHandler(this.btPortForward_Click);
@@ -324,7 +324,7 @@
 			this.btResetLogs.Name = "btResetLogs";
 			this.btResetLogs.Size = new System.Drawing.Size(96, 23);
 			this.btResetLogs.TabIndex = 14;
-			this.btResetLogs.Text = "Сбросить логи";
+			this.btResetLogs.Text = "Reset logs";
 			this.btResetLogs.UseVisualStyleBackColor = true;
 			this.btResetLogs.Click += new System.EventHandler(this.btResetLogs_Click);
 			// 
@@ -345,7 +345,7 @@
 			this.btConfig.Name = "btConfig";
 			this.btConfig.Size = new System.Drawing.Size(137, 54);
 			this.btConfig.TabIndex = 13;
-			this.btConfig.Text = "Настройки\r\nсервера";
+			this.btConfig.Text = "Settings\r\nserver";
 			this.btConfig.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
 			this.btConfig.UseVisualStyleBackColor = true;
 			this.btConfig.Click += new System.EventHandler(this.btConfig_Click);
@@ -357,7 +357,7 @@
 			this.label7.Name = "label7";
 			this.label7.Size = new System.Drawing.Size(121, 13);
 			this.label7.TabIndex = 6;
-			this.label7.Text = "Отправлено килобайт:";
+			this.label7.Text = "Sent kilobytes:";
 			this.label7.Visible = false;
 			// 
 			// tbRecvKb
@@ -376,7 +376,7 @@
 			this.label6.Name = "label6";
 			this.label6.Size = new System.Drawing.Size(103, 13);
 			this.label6.TabIndex = 4;
-			this.label6.Text = "Принято килобайт:";
+			this.label6.Text = "Kilobytes received:";
 			this.label6.Visible = false;
 			// 
 			// tableLayoutPanel2
@@ -431,7 +431,7 @@
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(61, 13);
 			this.label3.TabIndex = 0;
-			this.label3.Text = "Фильтры: ";
+			this.label3.Text = "Filters: ";
 			// 
 			// label4
 			// 
@@ -459,7 +459,7 @@
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(91, 13);
 			this.label1.TabIndex = 0;
-			this.label1.Text = "Активных ботов:";
+			this.label1.Text = "Active bots:";
 			// 
 			// label5
 			// 
@@ -498,7 +498,7 @@
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(128, 13);
 			this.label2.TabIndex = 2;
-			this.label2.Text = "Время работы сервера:";
+			this.label2.Text = "Server time:";
 			this.label2.Visible = false;
 			// 
 			// tableLayoutPanel3
@@ -539,7 +539,7 @@
 			this.btCmdBot.Name = "btCmdBot";
 			this.btCmdBot.Size = new System.Drawing.Size(94, 23);
 			this.btCmdBot.TabIndex = 16;
-			this.btCmdBot.Text = "Команда боту";
+			this.btCmdBot.Text = "Team bot";
 			this.btCmdBot.UseVisualStyleBackColor = true;
 			this.btCmdBot.Click += new System.EventHandler(this.btCmdBot_Click);
 			// 
@@ -558,7 +558,7 @@
 			this.btComment.Name = "btComment";
 			this.btComment.Size = new System.Drawing.Size(94, 23);
 			this.btComment.TabIndex = 20;
-			this.btComment.Text = "Комментарий";
+			this.btComment.Text = "Comment";
 			this.btComment.UseVisualStyleBackColor = true;
 			this.btComment.Click += new System.EventHandler(this.btComment_Click);
 			// 
@@ -575,7 +575,7 @@
 			this.Controls.Add(this.tableLayoutPanel1);
 			this.Name = "FormMain";
 			this.ShowIcon = false;
-			this.Text = "Бэкконект сервер";
+			this.Text = "Backcontact server";
 			this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormMain_FormClosed);
 			this.tableLayoutPanel1.ResumeLayout(false);
 			this.tableLayoutPanel1.PerformLayout();

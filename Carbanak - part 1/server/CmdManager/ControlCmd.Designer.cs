@@ -68,7 +68,7 @@
 			this.btStop.Name = "btStop";
 			this.btStop.Size = new System.Drawing.Size(75, 23);
 			this.btStop.TabIndex = 1;
-			this.btStop.Text = "Остановить";
+			this.btStop.Text = "Stop";
 			this.btStop.UseVisualStyleBackColor = true;
 			this.btStop.Click += new System.EventHandler(this.btStop_Click);
 			// 
@@ -78,7 +78,7 @@
 			this.btStart.Name = "btStart";
 			this.btStart.Size = new System.Drawing.Size(75, 23);
 			this.btStart.TabIndex = 0;
-			this.btStart.Text = "Запустить";
+			this.btStart.Text = "Launch";
 			this.btStart.UseVisualStyleBackColor = true;
 			this.btStart.Click += new System.EventHandler(this.btStart_Click);
 			// 

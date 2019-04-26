@@ -47,7 +47,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(47, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Сервер:";
+            this.label1.Text = "Server:";
             // 
             // cbServer
             // 
@@ -65,7 +65,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(46, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Клиент:";
+            this.label2.Text = "Customer:";
             // 
             // tbClient
             // 
@@ -82,7 +82,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(83, 13);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Пользователь:";
+            this.label3.Text = "User:";
             // 
             // label4
             // 
@@ -91,7 +91,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(48, 13);
             this.label4.TabIndex = 5;
-            this.label4.Text = "Пароль:";
+            this.label4.Text = "Password:";
             // 
             // tbUser
             // 
@@ -113,7 +113,7 @@
             this.btConnect.Name = "btConnect";
             this.btConnect.Size = new System.Drawing.Size(95, 23);
             this.btConnect.TabIndex = 8;
-            this.btConnect.Text = "Подключиться";
+            this.btConnect.Text = "Connect";
             this.btConnect.UseVisualStyleBackColor = true;
             this.btConnect.Click += new System.EventHandler(this.btConnect_Click);
             // 
@@ -123,7 +123,7 @@
             this.btCancel.Name = "btCancel";
             this.btCancel.Size = new System.Drawing.Size(95, 23);
             this.btCancel.TabIndex = 9;
-            this.btCancel.Text = "Отмена";
+            this.btCancel.Text = "Cancel";
             this.btCancel.UseVisualStyleBackColor = true;
             this.btCancel.Click += new System.EventHandler(this.btCancel_Click);
             // 
@@ -149,7 +149,7 @@
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Подключение к удаленному рабочему столу";
+            this.Text = "Remote Desktop Connection";
             this.ResumeLayout(false);
             this.PerformLayout();
 

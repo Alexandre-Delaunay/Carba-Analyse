@@ -118,17 +118,17 @@
 			// 
 			// clnFileName
 			// 
-			this.clnFileName.Text = "Имя файла";
+			this.clnFileName.Text = "File name";
 			this.clnFileName.Width = 200;
 			// 
 			// clnDate
 			// 
-			this.clnDate.Text = "Дата";
+			this.clnDate.Text = "date";
 			this.clnDate.Width = 100;
 			// 
 			// clnSize
 			// 
-			this.clnSize.Text = "Размер";
+			this.clnSize.Text = "The size";
 			this.clnSize.Width = 120;
 			// 
 			// tbBotFolder
@@ -160,17 +160,17 @@
 			// 
 			// columnHeader2
 			// 
-			this.columnHeader2.Text = "Имя файла";
+			this.columnHeader2.Text = "File name";
 			this.columnHeader2.Width = 200;
 			// 
 			// columnHeader3
 			// 
-			this.columnHeader3.Text = "Дата";
+			this.columnHeader3.Text = "date";
 			this.columnHeader3.Width = 100;
 			// 
 			// columnHeader4
 			// 
-			this.columnHeader4.Text = "Размер";
+			this.columnHeader4.Text = "The size";
 			this.columnHeader4.Width = 120;
 			// 
 			// tbMyFolder
@@ -203,7 +203,7 @@
 			this.btFolderBotUp.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.btFolderBotUp.Name = "btFolderBotUp";
 			this.btFolderBotUp.Size = new System.Drawing.Size(28, 36);
-			this.btFolderBotUp.Text = "Выйти из папки";
+			this.btFolderBotUp.Text = "Exit folder";
 			this.btFolderBotUp.Click += new System.EventHandler(this.btFolderBotUp_Click);
 			// 
 			// btBotFolderUpdate
@@ -214,7 +214,7 @@
 			this.btBotFolderUpdate.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.btBotFolderUpdate.Name = "btBotFolderUpdate";
 			this.btBotFolderUpdate.Size = new System.Drawing.Size(36, 36);
-			this.btBotFolderUpdate.Text = "Обновить";
+			this.btBotFolderUpdate.Text = "Refresh";
 			this.btBotFolderUpdate.Click += new System.EventHandler(this.btBotFolderUpdate_Click);
 			// 
 			// btCreateBotFolder
@@ -225,7 +225,7 @@
 			this.btCreateBotFolder.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.btCreateBotFolder.Name = "btCreateBotFolder";
 			this.btCreateBotFolder.Size = new System.Drawing.Size(36, 36);
-			this.btCreateBotFolder.Text = "Создать папку";
+			this.btCreateBotFolder.Text = "Create a folder";
 			this.btCreateBotFolder.Click += new System.EventHandler(this.btCreateBotFolder_Click);
 			// 
 			// btDelBotFile
@@ -236,7 +236,7 @@
 			this.btDelBotFile.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.btDelBotFile.Name = "btDelBotFile";
 			this.btDelBotFile.Size = new System.Drawing.Size(36, 36);
-			this.btDelBotFile.Text = "Удалить файл или папку";
+			this.btDelBotFile.Text = "Delete file or folder";
 			this.btDelBotFile.Click += new System.EventHandler(this.btDelBotFile_Click);
 			// 
 			// toolStrip2
@@ -261,7 +261,7 @@
 			this.btFolderMyUp.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.btFolderMyUp.Name = "btFolderMyUp";
 			this.btFolderMyUp.Size = new System.Drawing.Size(28, 36);
-			this.btFolderMyUp.Text = "Выйти из папки";
+			this.btFolderMyUp.Text = "Exit folder";
 			this.btFolderMyUp.Click += new System.EventHandler(this.btFolderMyUp_Click);
 			// 
 			// btMyFolderUpdate
@@ -272,7 +272,7 @@
 			this.btMyFolderUpdate.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.btMyFolderUpdate.Name = "btMyFolderUpdate";
 			this.btMyFolderUpdate.Size = new System.Drawing.Size(36, 36);
-			this.btMyFolderUpdate.Text = "Обновить";
+			this.btMyFolderUpdate.Text = "Refresh";
 			this.btMyFolderUpdate.Click += new System.EventHandler(this.btMyFolderUpdate_Click);
 			// 
 			// btCreateMyFolder
@@ -283,7 +283,7 @@
 			this.btCreateMyFolder.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.btCreateMyFolder.Name = "btCreateMyFolder";
 			this.btCreateMyFolder.Size = new System.Drawing.Size(36, 36);
-			this.btCreateMyFolder.Text = "Создать папку";
+			this.btCreateMyFolder.Text = "Create a folder";
 			this.btCreateMyFolder.Click += new System.EventHandler(this.btCreateMyFolder_Click);
 			// 
 			// btDelMyFile
@@ -294,7 +294,7 @@
 			this.btDelMyFile.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.btDelMyFile.Name = "btDelMyFile";
 			this.btDelMyFile.Size = new System.Drawing.Size(36, 36);
-			this.btDelMyFile.Text = "Удалить файл или папку";
+			this.btDelMyFile.Text = "Delete file or folder";
 			this.btDelMyFile.Click += new System.EventHandler(this.btDelMyFile_Click);
 			// 
 			// toolStrip3
@@ -323,7 +323,7 @@
 			this.btCopyMyBot.Name = "btCopyMyBot";
 			this.btCopyMyBot.Padding = new System.Windows.Forms.Padding(0, 0, 4, 0);
 			this.btCopyMyBot.Size = new System.Drawing.Size(35, 28);
-			this.btCopyMyBot.Text = "Копирование файла на бот";
+			this.btCopyMyBot.Text = "Copy file to bot";
 			this.btCopyMyBot.Click += new System.EventHandler(this.btCopyMyBot_Click);
 			// 
 			// btCopyBotMy
@@ -335,7 +335,7 @@
 			this.btCopyBotMy.Name = "btCopyBotMy";
 			this.btCopyBotMy.Padding = new System.Windows.Forms.Padding(0, 0, 4, 0);
 			this.btCopyBotMy.Size = new System.Drawing.Size(35, 28);
-			this.btCopyBotMy.Text = "Копирование файла с бота";
+			this.btCopyBotMy.Text = "Copy file from bot";
 			this.btCopyBotMy.Click += new System.EventHandler(this.btCopyBotMy_Click);
 			// 
 			// btStopCopy
@@ -346,7 +346,7 @@
 			this.btStopCopy.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.btStopCopy.Name = "btStopCopy";
 			this.btStopCopy.Size = new System.Drawing.Size(35, 36);
-			this.btStopCopy.Text = "Остановить операции копирования";
+			this.btStopCopy.Text = "Stop copying operations";
 			this.btStopCopy.Click += new System.EventHandler(this.btStopCopy_Click);
 			// 
 			// tbMyFileDetails

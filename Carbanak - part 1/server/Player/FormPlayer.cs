@@ -48,7 +48,7 @@ namespace Player
         {
             if (dlgOpenFile.ShowDialog() == DialogResult.OK)
             {
-                OpenFile(dlgOpenFile.FileName, "Неизвестно");
+                OpenFile(dlgOpenFile.FileName, "Unknown");
             }
         }
 
@@ -60,7 +60,7 @@ namespace Player
             notSetFrame = true;
             if (n > video.PosLoadVideo)
             {
-                MessageBox.Show("Видео еще не загрузилось до указанного кадра, подождите окончательной загрузки", "Предупреждение");
+                MessageBox.Show("The video has not loaded before the specified frame, wait for the final download.", "A warning");
                 return;
             }
             if (!video.IsBelongFilter(n))
@@ -99,13 +99,13 @@ namespace Player
         public void OpenFile(string nameFile, string uid)
         {
             if (!System.IO.File.Exists(nameFile))
-                MessageBox.Show("Файл '" + nameFile + "' отсутствует", "Ошибка");
+                MessageBox.Show("File '" + nameFile + "' missing", "Mistake");
             else
             {
                 if (threadLoad != null) threadLoad.Abort();
                 video = Video.LoadVideo(nameFile);
                 if (video == null)
-                    MessageBox.Show("Указанный файл имеет не верный формат", "Ошибка");
+                    MessageBox.Show("The specified file has an incorrect format.", "Mistake");
                 video.FillCBCaptions(cbCaptions);
                 SetFrame(0);
                 UpdateInfo();
@@ -516,7 +516,7 @@ namespace Player
                         SetTimeVideo(posTime);
                     }
                     else
-                        MessageBox.Show("По указанному якорю ничего не найдено");
+                        MessageBox.Show("Nothing found for the specified anchor");
                 }
             }
         }

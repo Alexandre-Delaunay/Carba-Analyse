@@ -86,21 +86,21 @@
             // 
             this.itemConnectRDP.Name = "itemConnectRDP";
             this.itemConnectRDP.Size = new System.Drawing.Size(194, 22);
-            this.itemConnectRDP.Text = "Подключение по RDP";
+            this.itemConnectRDP.Text = "RDP connection";
             this.itemConnectRDP.Click += new System.EventHandler(this.itemConnectRDP_Click);
             // 
             // itemConnectVNC
             // 
             this.itemConnectVNC.Name = "itemConnectVNC";
             this.itemConnectVNC.Size = new System.Drawing.Size(194, 22);
-            this.itemConnectVNC.Text = "Подключение по VNC";
+            this.itemConnectVNC.Text = "VNC connection";
             this.itemConnectVNC.Click += new System.EventHandler(this.itemConnectVNC_Click);
             // 
             // itemCloseConnect
             // 
             this.itemCloseConnect.Name = "itemCloseConnect";
             this.itemCloseConnect.Size = new System.Drawing.Size(63, 20);
-            this.itemCloseConnect.Text = "Закрыть";
+            this.itemCloseConnect.Text = "Close";
             this.itemCloseConnect.Click += new System.EventHandler(this.itemCloseConnect_Click);
             // 
             // FormRDP

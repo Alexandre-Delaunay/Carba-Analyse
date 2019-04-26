@@ -96,7 +96,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(47, 13);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Файлы:";
+            this.label2.Text = "Files:";
             // 
             // btOpen
             // 
@@ -104,7 +104,7 @@
             this.btOpen.Name = "btOpen";
             this.btOpen.Size = new System.Drawing.Size(75, 23);
             this.btOpen.TabIndex = 4;
-            this.btOpen.Text = "Открыть";
+            this.btOpen.Text = "Open";
             this.btOpen.UseVisualStyleBackColor = true;
             this.btOpen.Click += new System.EventHandler(this.btOpen_Click);
             // 
@@ -114,7 +114,7 @@
             this.btCancel.Name = "btCancel";
             this.btCancel.Size = new System.Drawing.Size(75, 23);
             this.btCancel.TabIndex = 5;
-            this.btCancel.Text = "Отмена";
+            this.btCancel.Text = "Cancel";
             this.btCancel.UseVisualStyleBackColor = true;
             this.btCancel.Click += new System.EventHandler(this.btCancel_Click);
             // 
@@ -147,32 +147,32 @@
             // 
             // columnHeader7
             // 
-            this.columnHeader7.Text = "IP бота";
+            this.columnHeader7.Text = "IP bot";
             this.columnHeader7.Width = 100;
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "Имя файла";
+            this.columnHeader1.Text = "File name";
             this.columnHeader1.Width = 140;
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "Название видео";
+            this.columnHeader2.Text = "Video title";
             this.columnHeader2.Width = 140;
             // 
             // columnHeader5
             // 
-            this.columnHeader5.Text = "Начало записи";
+            this.columnHeader5.Text = "Start recording";
             this.columnHeader5.Width = 120;
             // 
             // columnHeader6
             // 
-            this.columnHeader6.Text = "Конец записи";
+            this.columnHeader6.Text = "End of recording";
             this.columnHeader6.Width = 120;
             // 
             // columnHeader3
             // 
-            this.columnHeader3.Text = "Процесс с которого писали";
+            this.columnHeader3.Text = "The process from which they wrote";
             this.columnHeader3.Width = 250;
             // 
             // label3
@@ -182,7 +182,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(50, 13);
             this.label3.TabIndex = 7;
-            this.label3.Text = "Фильтр:";
+            this.label3.Text = "Filter:";
             // 
             // label4
             // 
@@ -208,7 +208,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(93, 13);
             this.label5.TabIndex = 10;
-            this.label5.Text = "Название видео:";
+            this.label5.Text = "Video title:";
             // 
             // tbFilterNameVideo
             // 
@@ -235,7 +235,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(64, 13);
             this.label6.TabIndex = 13;
-            this.label6.Text = "Заголовки:";
+            this.label6.Text = "Headlines:";
             // 
             // cbPaths
             // 
@@ -254,7 +254,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(76, 13);
             this.label7.TabIndex = 15;
-            this.label7.Text = "Путь к видео:";
+            this.label7.Text = "Video path:";
             // 
             // btAddPath
             // 
@@ -262,7 +262,7 @@
             this.btAddPath.Name = "btAddPath";
             this.btAddPath.Size = new System.Drawing.Size(131, 23);
             this.btAddPath.TabIndex = 16;
-            this.btAddPath.Text = "Добавить новый путь";
+            this.btAddPath.Text = "Add new path";
             this.btAddPath.UseVisualStyleBackColor = true;
             this.btAddPath.Click += new System.EventHandler(this.btAddPath_Click);
             // 
@@ -272,7 +272,7 @@
             this.btDelPath.Name = "btDelPath";
             this.btDelPath.Size = new System.Drawing.Size(129, 23);
             this.btDelPath.TabIndex = 17;
-            this.btDelPath.Text = "Удалить текущий путь";
+            this.btDelPath.Text = "Delete current path";
             this.btDelPath.UseVisualStyleBackColor = true;
             this.btDelPath.Click += new System.EventHandler(this.btDelPath_Click);
             // 
@@ -296,7 +296,7 @@
             this.btOpenAnchor.Name = "btOpenAnchor";
             this.btOpenAnchor.Size = new System.Drawing.Size(113, 23);
             this.btOpenAnchor.TabIndex = 19;
-            this.btOpenAnchor.Text = "Открыть по якорю";
+            this.btOpenAnchor.Text = "Open anchor";
             this.btOpenAnchor.UseVisualStyleBackColor = true;
             this.btOpenAnchor.Click += new System.EventHandler(this.btOpenAnchor_Click);
             // 
@@ -306,7 +306,7 @@
             this.btExportCaptions.Name = "btExportCaptions";
             this.btExportCaptions.Size = new System.Drawing.Size(122, 23);
             this.btExportCaptions.TabIndex = 20;
-            this.btExportCaptions.Text = "Экспорт заголовков";
+            this.btExportCaptions.Text = "Export Headers";
             this.btExportCaptions.UseVisualStyleBackColor = true;
             this.btExportCaptions.Click += new System.EventHandler(this.btExportCaptions_Click);
             // 
@@ -320,7 +320,7 @@
             this.btDelVideo.Name = "btDelVideo";
             this.btDelVideo.Size = new System.Drawing.Size(101, 23);
             this.btDelVideo.TabIndex = 21;
-            this.btDelVideo.Text = "Удаление видео";
+            this.btDelVideo.Text = "Deleting video";
             this.btDelVideo.UseVisualStyleBackColor = true;
             this.btDelVideo.Click += new System.EventHandler(this.btDelVideo_Click);
             // 
@@ -331,7 +331,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(40, 13);
             this.label8.TabIndex = 22;
-            this.label8.Text = "Ботов:";
+            this.label8.Text = "Bots:";
             // 
             // tbCountBots
             // 
@@ -356,7 +356,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(41, 13);
             this.label9.TabIndex = 24;
-            this.label9.Text = "Видео:";
+            this.label9.Text = "Video:";
             // 
             // btBugVideo
             // 
@@ -364,7 +364,7 @@
             this.btBugVideo.Name = "btBugVideo";
             this.btBugVideo.Size = new System.Drawing.Size(75, 23);
             this.btBugVideo.TabIndex = 26;
-            this.btBugVideo.Text = "Баг видео";
+            this.btBugVideo.Text = "Bug video";
             this.btBugVideo.UseVisualStyleBackColor = true;
             this.btBugVideo.Click += new System.EventHandler(this.btBugVideo_Click);
             // 
@@ -375,7 +375,7 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(64, 13);
             this.label10.TabIndex = 27;
-            this.label10.Text = "Заголовок:";
+            this.label10.Text = "Headline:";
             // 
             // tbFilterCaption
             // 
@@ -392,7 +392,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(105, 13);
             this.label11.TabIndex = 29;
-            this.label11.Text = "Уникальных ботов:";
+            this.label11.Text = "Unique bots:";
             // 
             // tbUnikBots
             // 

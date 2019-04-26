@@ -78,7 +78,7 @@
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(98, 13);
 			this.label1.TabIndex = 1;
-			this.label1.Text = "Адреса серверов:";
+			this.label1.Text = "Server Addresses:";
 			// 
 			// tableLayoutPanel2
 			// 
@@ -114,7 +114,7 @@
 			this.btCancel.Name = "btCancel";
 			this.btCancel.Size = new System.Drawing.Size(75, 23);
 			this.btCancel.TabIndex = 1;
-			this.btCancel.Text = "Отмена";
+			this.btCancel.Text = "Cancel";
 			this.btCancel.UseVisualStyleBackColor = true;
 			this.btCancel.Click += new System.EventHandler(this.btCancel_Click);
 			// 
@@ -144,7 +144,7 @@
 			this.ShowIcon = false;
 			this.ShowInTaskbar = false;
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "Настройки";
+			this.Text = "Settings";
 			this.tableLayoutPanel1.ResumeLayout(false);
 			this.tableLayoutPanel1.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.gridServers)).EndInit();

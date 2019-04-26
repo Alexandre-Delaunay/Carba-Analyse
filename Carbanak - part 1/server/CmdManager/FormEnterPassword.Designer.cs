@@ -41,7 +41,7 @@
 			this.labelEnterPassword.Name = "labelEnterPassword";
 			this.labelEnterPassword.Size = new System.Drawing.Size(112, 13);
 			this.labelEnterPassword.TabIndex = 0;
-			this.labelEnterPassword.Text = "Введите пароль для:";
+			this.labelEnterPassword.Text = "Enter a password for:";
 			// 
 			// tbPassword
 			// 
@@ -86,7 +86,7 @@
 			this.Name = "FormEnterPassword";
 			this.ShowIcon = false;
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "Ввод пароля";
+			this.Text = "Password entry";
 			this.ResumeLayout(false);
 			this.PerformLayout();
 

@@ -65,7 +65,7 @@
 			this.btCancel.Name = "btCancel";
 			this.btCancel.Size = new System.Drawing.Size(75, 23);
 			this.btCancel.TabIndex = 1;
-			this.btCancel.Text = "Отмена";
+			this.btCancel.Text = "Cancel";
 			this.btCancel.UseVisualStyleBackColor = true;
 			this.btCancel.Click += new System.EventHandler(this.btCancel_Click);
 			// 
@@ -76,7 +76,7 @@
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(88, 13);
 			this.label1.TabIndex = 2;
-			this.label1.Text = "Порт для ботов:";
+			this.label1.Text = "Port for bots:";
 			// 
 			// tbPort
 			// 
@@ -92,7 +92,7 @@
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(35, 13);
 			this.label2.TabIndex = 4;
-			this.label2.Text = "Порт:";
+			this.label2.Text = "Port:";
 			// 
 			// tbPortClient
 			// 
@@ -126,7 +126,7 @@
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(127, 13);
 			this.label3.TabIndex = 7;
-			this.label3.Text = "Разрешенные клиенты:";
+			this.label3.Text = "Allowed customers:";
 			// 
 			// groupBox1
 			// 
@@ -146,7 +146,7 @@
 			this.groupBox1.Size = new System.Drawing.Size(454, 240);
 			this.groupBox1.TabIndex = 8;
 			this.groupBox1.TabStop = false;
-			this.groupBox1.Text = "Клиенты (CmdManager):";
+			this.groupBox1.Text = "Customers (CmdManager):";
 			// 
 			// tbCheckPassword
 			// 
@@ -178,7 +178,7 @@
 			this.label6.Name = "label6";
 			this.label6.Size = new System.Drawing.Size(89, 30);
 			this.label6.TabIndex = 10;
-			this.label6.Text = "Подтверждение пароля:";
+			this.label6.Text = "Password confirmation:";
 			// 
 			// label5
 			// 
@@ -187,7 +187,7 @@
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(83, 13);
 			this.label5.TabIndex = 9;
-			this.label5.Text = "Новый пароль:";
+			this.label5.Text = "New password:";
 			// 
 			// label4
 			// 
@@ -196,7 +196,7 @@
 			this.label4.Name = "label4";
 			this.label4.Size = new System.Drawing.Size(48, 13);
 			this.label4.TabIndex = 8;
-			this.label4.Text = "Пароль:";
+			this.label4.Text = "Password:";
 			// 
 			// btChangePsw
 			// 
@@ -204,7 +204,7 @@
 			this.btChangePsw.Name = "btChangePsw";
 			this.btChangePsw.Size = new System.Drawing.Size(109, 23);
 			this.btChangePsw.TabIndex = 14;
-			this.btChangePsw.Text = "Сменить пароль";
+			this.btChangePsw.Text = "Change password";
 			this.btChangePsw.UseVisualStyleBackColor = true;
 			this.btChangePsw.Click += new System.EventHandler(this.btChangePsw_Click);
 			// 
@@ -224,7 +224,7 @@
 			this.Name = "FormConfig";
 			this.ShowIcon = false;
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "Настройки сервера";
+			this.Text = "Server settings";
 			this.TopMost = true;
 			((System.ComponentModel.ISupportInitialize)(this.gridIPClients)).EndInit();
 			this.groupBox1.ResumeLayout(false);

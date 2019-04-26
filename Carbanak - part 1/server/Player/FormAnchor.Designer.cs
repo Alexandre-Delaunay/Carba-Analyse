@@ -40,7 +40,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(42, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Якорь:";
+            this.label1.Text = "Anchor:";
             // 
             // tbAnchor
             // 
@@ -73,7 +73,7 @@
             this.Name = "FormAnchor";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.Text = "Ввод якоря";
+            this.Text = "Anchor input";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -43,7 +43,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(47, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Сервер:";
+            this.label1.Text = "Server:";
             // 
             // cbServer
             // 
@@ -61,7 +61,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(46, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Клиент:";
+            this.label2.Text = "Customer:";
             // 
             // tbClient
             // 
@@ -76,7 +76,7 @@
             this.btConnect.Name = "btConnect";
             this.btConnect.Size = new System.Drawing.Size(95, 23);
             this.btConnect.TabIndex = 8;
-            this.btConnect.Text = "Подключиться";
+            this.btConnect.Text = "Connect";
             this.btConnect.UseVisualStyleBackColor = true;
             this.btConnect.Click += new System.EventHandler(this.btConnect_Click);
             // 
@@ -86,7 +86,7 @@
             this.btCancel.Name = "btCancel";
             this.btCancel.Size = new System.Drawing.Size(95, 23);
             this.btCancel.TabIndex = 9;
-            this.btCancel.Text = "Отмена";
+            this.btCancel.Text = "Cancel";
             this.btCancel.UseVisualStyleBackColor = true;
             this.btCancel.Click += new System.EventHandler(this.btCancel_Click);
             // 
@@ -108,7 +108,7 @@
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Подключение по VNC";
+            this.Text = "VNC connection";
             this.ResumeLayout(false);
             this.PerformLayout();
 

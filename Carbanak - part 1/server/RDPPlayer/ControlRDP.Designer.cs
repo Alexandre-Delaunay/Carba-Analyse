@@ -95,7 +95,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(83, 13);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Пользователь:";
+            this.label3.Text = "User:";
             // 
             // tbClient
             // 
@@ -112,7 +112,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(46, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Клиент:";
+            this.label2.Text = "Customer:";
             // 
             // tbServer
             // 
@@ -129,7 +129,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(47, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Сервер:";
+            this.label1.Text = "Server:";
             // 
             // panel2
             // 
@@ -155,7 +155,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(44, 13);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Статус:";
+            this.label4.Text = "Status:";
             // 
             // axRDP
             // 
